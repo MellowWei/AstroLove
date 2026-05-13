@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#7dffd8">
+<title>☆ QULIA LOVE SPECTRUM // 七爱谱系 · 427Hz</title>
+<meta name="description" content="七爱谱系 · 星盘爱情学 · 凄·期·奇·齐·启·契·七 · Wei Jueran · 魏珏然 · 星野灵7爱 · 44271 · 427Hz · NODE 17">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Noto+Serif+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --mint:#7dffd8;
+  --mint-dim:#4ec9a8;
+  --mint-glow:rgba(125,255,216,0.25);
+  --bg-0:#050507;
+  --bg-1:#0a0a0c;
+  --bg-2:#0f0f12;
+  --ink-0:#e8e8e0;
+  --ink-1:#c0c0b8;
+  --ink-2:#7a7a72;
+  --ink-3:#3a3a36;
+  --line:#1a1a20;
+  --line-2:#252530;
+  --qi-pity:#8b5fb8;
+  --qi-wait:#b88a4e;
+  --qi-wonder:#f0c850;
+  --qi-equal:#f0f0e6;
+  --qi-open:#5fb8d4;
+  --qi-pact:#8a958a;
+  --qi-seven:#e8649a;
+  --font-mono:'Share Tech Mono','JetBrains Mono',monospace;
+  --font-mono-b:'JetBrains Mono',monospace;
+  --font-serif:'Cormorant Garamond','Noto Serif SC',serif;
+  --font-cn:'Noto Serif SC',serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+::selection{background:var(--mint);color:#000}
+html,body{background:var(--bg-0);color:var(--ink-0);font-family:var(--font-serif);overflow-x:hidden;scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(125,255,216,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 20% 80%, rgba(232,100,154,0.03) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 80% 50%, rgba(139,95,184,0.025) 0%, transparent 60%),
+    var(--bg-0);
+  min-height:100vh;position:relative;
+}
+.starfield{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.star{position:absolute;background:var(--mint);border-radius:50%;opacity:0;animation:twinkle linear infinite}
+@keyframes twinkle{0%,100%{opacity:0}50%{opacity:0.6}}
+body::before{
+  content:'';position:fixed;inset:0;
+  background-image:
+    linear-gradient(to right, rgba(125,255,216,0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(125,255,216,0.025) 1px, transparent 1px);
+  background-size:80px 80px;pointer-events:none;z-index:1;
+  mask-image:radial-gradient(ellipse at center, black 30%, transparent 80%);
+}
+body::after{
+  content:'';position:fixed;inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.03 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events:none;opacity:0.6;z-index:2;mix-blend-mode:overlay;
+}
+.container{position:relative;z-index:5;max-width:1300px;margin:0 auto;padding:0 2rem}
+.top-strip{position:sticky;top:0;z-index:50;background:rgba(5,5,7,0.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--line);font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.18em;padding:0.7rem 0}
+.top-strip-inner{display:flex;justify-content:space-between;align-items:center;max-width:1300px;margin:0 auto;padding:0 2rem;gap:1rem;flex-wrap:wrap}
+.transmission{color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.transmission .mint{color:var(--mint)}
+.transmission .sep{color:var(--ink-3);margin:0 0.6rem}
+.lang-switch{display:flex;gap:0.4rem;flex-shrink:0}
+.lang-switch a{color:var(--ink-2);text-decoration:none;padding:0.2rem 0.6rem;border:1px solid var(--line-2);transition:all 0.3s;font-size:0.65rem}
+.lang-switch a.active{color:var(--mint);border-color:var(--mint);background:rgba(125,255,216,0.05)}
+.lang-switch a:hover{color:var(--mint)}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;position:relative;padding:5rem 2rem 3rem}
+.hero-meta-grid{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.2em;color:var(--ink-2);margin-bottom:3rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0.4rem;max-width:1100px}
+.hero-meta-grid .row{display:flex;gap:0.8rem}
+.hero-meta-grid .label{color:var(--ink-3);min-width:90px}
+.hero-meta-grid .val{color:var(--mint)}
+.node-tag{font-family:var(--font-mono);font-size:0.75rem;letter-spacing:0.3em;color:var(--mint);margin-bottom:1.5rem;display:inline-block}
+.node-tag::before{content:'// ';color:var(--ink-3)}
+.hero h1{font-family:var(--font-serif);font-weight:300;font-size:clamp(2.5rem, 7vw, 6.5rem);line-height:0.95;margin-bottom:1.2rem;letter-spacing:-0.02em}
+.hero h1 em{font-style:italic;color:var(--mint);font-weight:400}
+.hero h1 .cn-title{font-family:var(--font-cn);font-weight:400;display:block;font-size:0.55em;letter-spacing:0.3em;margin-top:1rem;background:linear-gradient(90deg,var(--qi-pity) 0%,var(--qi-wait) 16%,var(--qi-wonder) 33%,var(--qi-equal) 50%,var(--qi-open) 66%,var(--qi-pact) 83%,var(--qi-seven) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-sub{font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.3em;color:var(--ink-2);margin:0.5rem 0 2rem;text-transform:uppercase}
+.hero-thesis{font-family:var(--font-serif);font-style:italic;font-size:1.4rem;color:var(--ink-1);max-width:680px;line-height:1.5;font-weight:300;margin-bottom:0.8rem}
+.hero-thesis-en{font-family:var(--font-serif);font-style:italic;font-size:1.05rem;color:var(--ink-2);max-width:680px;line-height:1.5;font-weight:300;margin-bottom:3rem}
+.coord-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));gap:1rem;max-width:900px;margin:3rem 0}
+.coord-cell{border:1px solid var(--line);padding:1.2rem 1rem;background:rgba(125,255,216,0.02);position:relative}
+.coord-cell .num{font-family:var(--font-mono-b);font-size:1.8rem;font-weight:400;color:var(--mint);letter-spacing:0.05em;line-height:1;margin-bottom:0.5rem}
+.coord-cell .lbl{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.15em;color:var(--ink-2);text-transform:uppercase}
+.coord-cell .lbl-cn{font-family:var(--font-cn);font-size:0.75rem;color:var(--ink-1);display:block;margin-top:0.2rem}
+.gates{display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:0.8rem;margin-top:3rem}
+.gate{border:1px solid var(--line);padding:1.5rem 1.2rem;background:rgba(255,255,255,0.01);text-decoration:none;color:inherit;display:block;cursor:pointer;transition:all 0.3s;position:relative}
+.gate:hover{border-color:var(--mint);background:rgba(125,255,216,0.04);transform:translateY(-2px)}
+.gate .gate-num{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.2em;color:var(--ink-3);margin-bottom:0.5rem}
+.gate .gate-num::before{content:'// '}
+.gate .gate-name{font-family:var(--font-cn);font-size:1.1rem;color:var(--ink-0);margin-bottom:0.2rem}
+.gate .gate-en{font-family:var(--font-serif);font-style:italic;font-size:0.85rem;color:var(--ink-2)}
+.gate .gate-arrow{font-family:var(--font-mono);font-size:0.7rem;color:var(--mint);margin-top:0.8rem;opacity:0;transition:opacity 0.3s}
+.gate:hover .gate-arrow{opacity:1}
+section{padding:7rem 0;position:relative;border-top:1px solid var(--line)}
+.section-tag{font-family:var(--font-mono);font-size:0.75rem;letter-spacing:0.3em;color:var(--mint);margin-bottom:1.5rem;text-transform:uppercase}
+.section-tag::before{content:'// ';color:var(--ink-3)}
+.section-title{font-family:var(--font-serif);font-weight:300;font-size:clamp(1.8rem, 4vw, 3rem);margin-bottom:1.5rem;letter-spacing:-0.01em;line-height:1.1}
+.section-title em{font-style:italic;color:var(--mint);font-weight:400}
+.section-title .cn{font-family:var(--font-cn);font-weight:400;font-size:0.55em;display:block;color:var(--ink-2);margin-bottom:0.5rem;letter-spacing:0.15em}
+.section-intro{font-family:var(--font-serif);font-size:1.1rem;color:var(--ink-1);max-width:800px;line-height:1.7;font-style:italic;margin-bottom:1rem}
+.section-intro-en{font-family:var(--font-serif);font-size:0.95rem;color:var(--ink-2);max-width:800px;line-height:1.6;font-style:italic;margin-bottom:4rem}
+.axioms{display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:1rem;margin-top:2rem}
+.axiom{border:1px solid var(--line);padding:1.6rem 1.4rem;background:rgba(255,255,255,0.01);position:relative;transition:border-color 0.3s}
+.axiom:hover{border-color:var(--mint-dim)}
+.axiom .a-num{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.25em;color:var(--mint);margin-bottom:0.8rem}
+.axiom .a-text{font-family:var(--font-serif);font-style:italic;font-size:1rem;color:var(--ink-1);line-height:1.6;margin-bottom:0.8rem}
+.axiom .a-text-en{font-family:var(--font-serif);font-style:italic;font-size:0.85rem;color:var(--ink-2);line-height:1.5;padding-top:0.8rem;border-top:1px dashed var(--line-2)}
+.seven-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(290px, 1fr));gap:1.2rem}
+.qi-card{border:1px solid var(--line);padding:2rem 1.6rem;position:relative;background:rgba(255,255,255,0.012);transition:all 0.4s;overflow:hidden}
+.qi-card::before{content:'';position:absolute;top:0;left:0;width:60%;height:2px;background:var(--qi-color);transition:width 0.4s}
+.qi-card::after{content:'';position:absolute;bottom:0;right:0;width:30%;height:1px;background:var(--qi-color);opacity:0.4}
+.qi-card:hover::before{width:100%}
+.qi-card:hover{background:rgba(255,255,255,0.025);transform:translateY(-3px)}
+.qi-card .qi-num{font-family:var(--font-mono);font-size:0.65rem;color:var(--ink-3);letter-spacing:0.25em;margin-bottom:0.5rem}
+.qi-card .qi-num::before{content:'// '}
+.qi-card .qi-name{font-family:var(--font-cn);font-size:2.4rem;font-weight:500;color:var(--qi-color);margin:0.3rem 0 0.2rem;letter-spacing:0.08em;line-height:1}
+.qi-card .qi-pinyin{font-family:var(--font-mono);font-size:0.75rem;letter-spacing:0.25em;color:var(--ink-2);margin-bottom:0.4rem}
+.qi-card .qi-en{font-family:var(--font-serif);font-style:italic;font-size:1.05rem;color:var(--ink-1);margin-bottom:1.4rem}
+.qi-card .qi-def{font-size:0.95rem;color:var(--ink-1);line-height:1.6;margin-bottom:0.8rem;font-style:italic}
+.qi-card .qi-def-en{font-size:0.82rem;color:var(--ink-2);line-height:1.5;margin-bottom:1.5rem;font-style:italic;padding-bottom:1rem;border-bottom:1px dashed var(--line-2)}
+.qi-card .qi-data{font-family:var(--font-mono);font-size:0.7rem;color:var(--ink-2);line-height:1.9;letter-spacing:0.05em}
+.qi-card .qi-data .k{color:var(--qi-color);font-weight:bold;margin-right:0.4rem}
+.qi-card .qi-warn{margin-top:1.3rem;padding-top:1rem;border-top:1px dashed var(--line-2);font-size:0.78rem;color:var(--ink-2);font-style:italic;line-height:1.5}
+.qi-card .qi-warn::before{content:'⚠ ';color:var(--qi-color)}
+.qi-card[data-q="qi"]{--qi-color:var(--qi-pity)}
+.qi-card[data-q="qi2"]{--qi-color:var(--qi-wait)}
+.qi-card[data-q="qi3"]{--qi-color:var(--qi-wonder)}
+.qi-card[data-q="qi4"]{--qi-color:var(--qi-equal)}
+.qi-card[data-q="qi5"]{--qi-color:var(--qi-open)}
+.qi-card[data-q="qi6"]{--qi-color:var(--qi-pact)}
+.qi-card[data-q="qi7"]{--qi-color:var(--qi-seven);grid-column:1/-1;background:linear-gradient(135deg, rgba(232,100,154,0.05), transparent 70%)}
+.matrix-wrap{overflow-x:auto;margin:2rem 0;border:1px solid var(--line);background:rgba(0,0,0,0.3)}
+.matrix{width:100%;min-width:780px;border-collapse:collapse;font-family:var(--font-mono);font-size:0.75rem}
+.matrix th, .matrix td{border:1px solid var(--line);padding:1rem 0.8rem;text-align:center;vertical-align:middle}
+.matrix th{background:rgba(125,255,216,0.04);color:var(--ink-1);font-weight:normal;letter-spacing:0.1em}
+.matrix th.qi-h{font-family:var(--font-cn);font-size:1rem;font-weight:500}
+.matrix td.layer-h{background:rgba(125,255,216,0.025);text-align:left;padding-left:1.2rem;font-family:var(--font-cn);font-size:0.9rem;color:var(--ink-1)}
+.matrix td.layer-h .en{display:block;font-family:var(--font-serif);font-style:italic;font-size:0.75rem;color:var(--ink-3);margin-top:0.2rem}
+.matrix .lvl{display:inline-block;width:28px;height:28px;border-radius:50%;font-size:0.75rem;line-height:28px;font-weight:bold;font-family:var(--font-mono-b)}
+.matrix .lvl-3{background:var(--mint);color:#000;box-shadow:0 0 12px var(--mint-glow)}
+.matrix .lvl-2{background:rgba(125,255,216,0.4);color:#fff}
+.matrix .lvl-1{background:rgba(125,255,216,0.12);color:var(--ink-1)}
+.matrix .lvl-0{background:transparent;color:var(--ink-3);border:1px solid var(--line-2)}
+.matrix-legend{display:flex;gap:1.5rem;flex-wrap:wrap;font-family:var(--font-mono);font-size:0.7rem;margin-top:1rem;color:var(--ink-2);letter-spacing:0.1em}
+.matrix-legend .item{display:flex;align-items:center;gap:0.5rem}
+.scanner{border:1px solid var(--line);padding:2.5rem 2rem;background:rgba(0,0,0,0.3);margin:2rem 0;position:relative}
+.scanner::before{content:'';position:absolute;top:-1px;left:-1px;width:60px;height:1px;background:var(--mint)}
+.scanner::after{content:'';position:absolute;bottom:-1px;right:-1px;width:60px;height:1px;background:var(--mint)}
+.scan-input-wrap{margin-bottom:2rem}
+.scan-input-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.2em;color:var(--mint);display:block;margin-bottom:0.5rem;text-transform:uppercase}
+.scan-input{width:100%;font-family:var(--font-serif);font-size:1.2rem;font-style:italic;background:rgba(125,255,216,0.02);border:none;border-bottom:1px solid var(--line-2);color:var(--mint);padding:0.5rem 0;transition:border-color 0.3s}
+.scan-input:focus{outline:none;border-bottom-color:var(--mint)}
+.scan-input::placeholder{color:var(--ink-3)}
+.scan-block{margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px dashed var(--line)}
+.scan-block:last-child{border-bottom:none}
+.scan-block-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:0.3rem;flex-wrap:wrap}
+.scan-block h3{font-family:var(--font-cn);font-weight:500;font-size:1.4rem;color:var(--qi-color, var(--ink-0));letter-spacing:0.05em}
+.scan-block .pinyin{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.2em;color:var(--ink-3)}
+.scan-block .scan-q{font-family:var(--font-serif);font-style:italic;color:var(--ink-2);margin-bottom:1.2rem;font-size:0.9rem}
+.checkboxes{display:flex;flex-direction:column;gap:0.7rem}
+.cb-item{display:flex;align-items:flex-start;gap:0.9rem;cursor:pointer;font-size:0.9rem;color:var(--ink-1);user-select:none;padding:0.3rem 0;transition:color 0.2s}
+.cb-item:hover{color:var(--ink-0)}
+.cb-item input{appearance:none;width:18px;height:18px;border:1px solid var(--line-2);background:transparent;cursor:pointer;position:relative;flex-shrink:0;margin-top:2px;transition:all 0.2s}
+.cb-item input:checked{background:var(--qi-color, var(--mint));border-color:var(--qi-color, var(--mint))}
+.cb-item input:checked::after{content:'';position:absolute;top:3px;left:6px;width:5px;height:9px;border:solid #000;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.cb-en{display:block;font-family:var(--font-serif);font-style:italic;font-size:0.78rem;color:var(--ink-3);margin-top:0.15rem}
+.btn-set{display:flex;gap:0.6rem;flex-wrap:wrap;margin-top:2rem}
+.btn{font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.25em;background:transparent;color:var(--ink-0);border:1px solid var(--ink-2);padding:0.9rem 1.6rem;cursor:pointer;transition:all 0.3s;text-transform:uppercase;position:relative;overflow:hidden}
+.btn::before{content:'';position:absolute;inset:0;background:var(--mint);transform:translateX(-100%);transition:transform 0.3s;z-index:-1}
+.btn:hover{color:#000;border-color:var(--mint)}
+.btn:hover::before{transform:translateX(0)}
+.btn.primary{border-color:var(--mint);color:var(--mint)}
+.btn.primary:hover{color:#000}
+.scanner-result{margin-top:3rem;padding:2.5rem 2rem;border:1px solid var(--mint);background:linear-gradient(135deg, rgba(125,255,216,0.04), transparent 60%);display:none}
+.scanner-result.show{display:block;animation:slideIn 0.6s ease}
+@keyframes slideIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.scanner-result h3{font-family:var(--font-cn);font-weight:500;margin-bottom:0.5rem;color:var(--mint);font-size:1.5rem}
+.scanner-result .res-meta{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.2em;color:var(--ink-3);margin-bottom:2rem}
+.scanner-result .res-meta::before{content:'// '}
+.result-bars{margin:1.5rem 0 2rem}
+.result-bar{display:grid;grid-template-columns:90px 1fr 110px;gap:1.2rem;align-items:center;margin-bottom:0.8rem;font-family:var(--font-mono);font-size:0.8rem}
+.result-bar .name{font-family:var(--font-cn);font-size:1.1rem;color:var(--qi-color);letter-spacing:0.05em}
+.result-bar .bar-bg{height:6px;background:rgba(255,255,255,0.04);position:relative;overflow:hidden}
+.result-bar .bar-fill{position:absolute;left:0;top:0;height:100%;background:var(--qi-color);transition:width 1s cubic-bezier(.2,.7,.3,1);box-shadow:0 0 8px var(--qi-color);width:0}
+.result-bar .level{text-align:right;font-size:0.7rem;color:var(--ink-1);letter-spacing:0.1em}
+.result-summary{padding-top:1.5rem;border-top:1px dashed var(--line-2);font-style:italic;color:var(--ink-1);line-height:1.7;font-size:1rem}
+.result-summary strong{color:var(--mint);font-style:normal;font-family:var(--font-cn);font-weight:500}
+.pair-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+@media(max-width:768px){.pair-grid{grid-template-columns:1fr}}
+.pair-col h4{font-family:var(--font-cn);font-weight:500;font-size:1.2rem;margin-bottom:0.5rem;color:var(--mint)}
+.pair-col h4::before{content:'☆ ';color:var(--qi-seven)}
+.pair-hint{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.1em;color:var(--ink-3);margin-bottom:1.2rem}
+.pair-row{display:grid;grid-template-columns:70px 1fr 30px;gap:0.8rem;align-items:center;margin-bottom:0.5rem}
+.pair-row .lbl{font-family:var(--font-cn);font-size:1rem;color:var(--qi-color)}
+.pair-row input[type=range]{width:100%;-webkit-appearance:none;appearance:none;background:transparent;cursor:pointer}
+.pair-row input[type=range]::-webkit-slider-runnable-track{height:2px;background:var(--line-2)}
+.pair-row input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:14px;height:14px;border-radius:50%;background:var(--qi-color);margin-top:-6px;cursor:pointer;box-shadow:0 0 6px var(--qi-color)}
+.pair-row input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:var(--qi-color);border:none;cursor:pointer}
+.pair-row .val{font-family:var(--font-mono-b);font-size:0.85rem;color:var(--mint);text-align:right}
+.resonance-table{width:100%;border-collapse:collapse;margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem}
+.resonance-table th, .resonance-table td{border:1px solid var(--line);padding:0.9rem 0.8rem;text-align:center}
+.resonance-table th{background:rgba(125,255,216,0.04);color:var(--ink-1);font-weight:normal;letter-spacing:0.1em}
+.resonance-table .qi-cn{font-family:var(--font-cn);font-size:1.05rem;color:var(--qi-color)}
+.tag{display:inline-block;padding:0.25rem 0.7rem;font-size:0.7rem;letter-spacing:0.1em}
+.tag-strong{background:rgba(125,255,216,0.18);color:var(--mint);border:1px solid var(--mint-dim)}
+.tag-mid{background:rgba(255,255,255,0.04);color:var(--ink-1);border:1px solid var(--line-2)}
+.tag-weak{background:rgba(255,255,255,0.02);color:var(--ink-2);border:1px solid var(--line)}
+.tag-dead{background:rgba(139,95,184,0.12);color:#b894d4;border:1px solid rgba(139,95,184,0.3)}
+.tag-warn{background:rgba(232,100,154,0.1);color:#ff9ec0;border:1px solid rgba(232,100,154,0.3)}
+.tree-q{border-left:2px solid var(--mint);padding:1.4rem 1.6rem;margin:1.2rem 0;background:rgba(125,255,216,0.025);transition:all 0.3s}
+.tree-q.answered{border-left-color:var(--qi-seven);background:rgba(232,100,154,0.04)}
+.tree-q .q-num{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.25em;color:var(--mint);margin-bottom:0.6rem}
+.tree-q .q-num::before{content:'// '}
+.tree-q .q-text{font-family:var(--font-cn);font-size:1.15rem;margin-bottom:0.3rem;color:var(--ink-0)}
+.tree-q .q-text-en{font-family:var(--font-serif);font-style:italic;font-size:0.9rem;color:var(--ink-2);margin-bottom:1rem}
+.tree-options{display:flex;gap:0.6rem;flex-wrap:wrap;margin-top:0.9rem}
+.tree-option{font-family:var(--font-serif);font-size:0.9rem;font-style:italic;padding:0.7rem 1.2rem;background:transparent;border:1px solid var(--line-2);color:var(--ink-1);cursor:pointer;transition:all 0.2s;text-align:left;flex:1 1 280px}
+.tree-option:hover{border-color:var(--mint);color:var(--mint);background:rgba(125,255,216,0.04)}
+.tree-option.selected{border-color:var(--qi-seven);color:var(--qi-seven);background:rgba(232,100,154,0.05)}
+.tree-result{border:1px solid var(--qi-seven);background:linear-gradient(135deg, rgba(232,100,154,0.06), transparent 60%);padding:2.5rem 2rem;margin-top:2rem;display:none}
+.tree-result.show{display:block;animation:slideIn 0.6s ease}
+.tree-result h4{font-family:var(--font-cn);font-weight:500;color:var(--qi-seven);margin-bottom:1rem;font-size:1.4rem}
+.tree-result h4::before{content:'☆ '}
+.tree-result .verdict{font-style:italic;color:var(--ink-1);line-height:1.7;margin-bottom:1rem;font-size:1rem}
+.tree-result .verdict strong{color:var(--qi-seven);font-family:var(--font-cn);font-weight:500;font-style:normal;font-size:1.2rem}
+.tree-result .action{font-family:var(--font-mono);font-size:0.75rem;color:var(--ink-2);letter-spacing:0.1em;padding-top:1rem;margin-top:1rem;border-top:1px dashed var(--line);line-height:1.7}
+.tree-result .action::before{content:'// ARCHIVE ACTION · ';color:var(--mint)}
+.case-study{border-left:2px solid var(--qi-seven);padding:1.8rem 2rem;margin:2rem 0;background:linear-gradient(90deg, rgba(232,100,154,0.04), transparent 80%)}
+.case-study .case-tag{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.25em;color:var(--qi-seven);margin-bottom:0.5rem}
+.case-study .case-tag::before{content:'// CASE '}
+.case-study h4{font-family:var(--font-cn);color:var(--ink-0);margin-bottom:0.3rem;font-weight:500;font-size:1.2rem}
+.case-study .case-en-title{font-family:var(--font-serif);font-style:italic;color:var(--ink-2);margin-bottom:1.2rem;font-size:0.95rem}
+.case-study p{color:var(--ink-1);line-height:1.7;margin-bottom:0.8rem;font-size:0.95rem}
+.case-study p strong{color:var(--mint);font-weight:500}
+.case-study .en-para{color:var(--ink-2);font-style:italic;font-size:0.88rem;padding-bottom:0.6rem;border-bottom:1px dashed var(--line-2);margin-bottom:1.5rem}
+.case-study .en-para:last-child{border-bottom:none}
+.divider{height:1px;background:linear-gradient(90deg, transparent, var(--mint), transparent);margin:3rem 0;opacity:0.3}
+.transmissions{padding:4rem 0;border-top:1px solid var(--line)}
+.trans-list{display:flex;flex-direction:column;gap:0.6rem;font-family:var(--font-mono);font-size:0.8rem;max-width:900px}
+.trans-row{display:grid;grid-template-columns:80px 80px 1fr;gap:1.2rem;align-items:baseline;padding:0.4rem 0;border-bottom:1px solid var(--line)}
+.trans-row .code{color:var(--qi-seven);font-size:0.7rem;letter-spacing:0.1em}
+.trans-row .date{color:var(--ink-3);font-size:0.7rem}
+.trans-row .msg{color:var(--ink-1)}
+.trans-row .msg .mint{color:var(--mint)}
+footer{padding:5rem 0 3rem;border-top:1px solid var(--line);text-align:center}
+footer .sig-line{font-family:var(--font-cn);font-size:1.1rem;background:linear-gradient(90deg,var(--qi-pity),var(--qi-wait),var(--qi-wonder),var(--qi-equal),var(--qi-open),var(--qi-pact),var(--qi-seven));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:1rem;letter-spacing:0.3em}
+footer .author{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.25em;color:var(--ink-2);margin-bottom:0.5rem}
+footer .author .mint{color:var(--mint)}
+footer .coords{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.3em;color:var(--ink-3);margin-top:1.5rem}
+footer .return-link{display:inline-block;margin-top:1.5rem;font-family:var(--font-mono);font-size:0.75rem;letter-spacing:0.2em;color:var(--mint);text-decoration:none;border:1px solid var(--mint);padding:0.7rem 1.4rem;transition:all 0.3s}
+footer .return-link:hover{background:var(--mint);color:#000}
+.en-only{display:none}
+body.en .en-only{display:revert}
+body.en .zh-only{display:none}
+@media(max-width:768px){
+  .container{padding:0 1.2rem}
+  section{padding:5rem 0}
+  .hero{padding:3rem 1rem 2rem;min-height:auto}
+  .scanner{padding:1.5rem 1.2rem}
+  .result-bar{grid-template-columns:70px 1fr 80px;gap:0.8rem}
+}
+</style>
+</head>
+<body class="zh">
+<div class="starfield" id="starfield"></div>
+<div class="top-strip">
+  <div class="top-strip-inner">
+    <div class="transmission">
+      <span class="zh-only">// <span class="mint">NODE 17</span> · QULIA LOVE SPECTRUM<span class="sep">·</span>七爱谱系<span class="sep">·</span><span class="mint">427Hz</span> ONLINE<span class="sep">·</span>2026 ULTIMATE_FIRST</span>
+      <span class="en-only">// <span class="mint">NODE 17</span> · QULIA LOVE SPECTRUM<span class="sep">·</span><span class="mint">427Hz</span> ONLINE<span class="sep">·</span>2026 ULTIMATE_FIRST</span>
+    </div>
+    <div class="lang-switch">
+      <a href="?view=zh" class="zh-toggle active">中</a>
+      <a href="?view=en" class="en-toggle">EN</a>
+    </div>
+  </div>
+</div>
+<section class="hero">
+  <div class="container">
+    <div class="hero-meta-grid">
+      <div class="row"><span class="label">// SOURCE</span><span class="val">魏珏然 · Wei Jueran</span></div>
+      <div class="row"><span class="label">// IDENTITY</span><span class="val">星野灵7爱 · xingyeLing7Ai</span></div>
+      <div class="row"><span class="label">// FREQ</span><span class="val">427.00 Hz</span></div>
+      <div class="row"><span class="label">// COORDINATES</span><span class="val">44271 · 77347</span></div>
+      <div class="row"><span class="label">// LOCATION</span><span class="val">Philadelphia, PA · EDT</span></div>
+      <div class="row"><span class="label">// PORTAL</span><span class="val">MellowWei · NODE 17</span></div>
+    </div>
+
+    <div class="node-tag">QULIA LOVE SPECTRUM · v1.0 · 2026</div>
+
+    <h1>
+      <span class="zh-only">星盘<em>爱情学</em></span>
+      <span class="en-only">Astrological <em>Love Studies</em></span>
+      <span class="cn-title">凄 · 期 · 奇 · 齐 · 启 · 契 · 七</span>
+    </h1>
+
+    <div class="hero-sub">QĪ · QÍ · QÍ · QÍ · QǏ · QÌ · QĪ &nbsp;·&nbsp; SEVEN FREQUENCIES OF LOVE</div>
+
+    <p class="hero-thesis zh-only">爱不是一种感觉，是七种频段。<br>星盘不是命运图，是七爱谱在一个肉身上的分布坐标。</p>
+    <p class="hero-thesis en-only">Love is not one feeling. Love is seven frequencies.<br>A natal chart is not a fate map. It is the distribution of the seven-love spectrum on a single body.</p>
+
+    <p class="hero-thesis-en">
+      <span class="zh-only"><em>Love is not one feeling — it is seven frequencies. A natal chart is not a fate map — it is the distribution of the seven-love spectrum on a single body.</em></span>
+      <span class="en-only">这是一个把爱拆解为七种振动频段的诊断系统。每一爱有其占星本位、五层振动谱中的运作强度、以及失败诊断路径。</span>
+    </p>
+
+    <div class="coord-grid">
+      <div class="coord-cell"><div class="num">7</div><div class="lbl">FREQUENCIES</div><span class="lbl-cn"><span class="zh-only">七爱频段</span><span class="en-only">seven loves</span></span></div>
+      <div class="coord-cell"><div class="num">5</div><div class="lbl">VIBRATIONAL LAYERS</div><span class="lbl-cn"><span class="zh-only">五层振动谱</span><span class="en-only">vibrational layers</span></span></div>
+      <div class="coord-cell"><div class="num">8</div><div class="lbl">FOUNDATIONAL AXIOMS</div><span class="lbl-cn"><span class="zh-only">源场公理</span><span class="en-only">core axioms</span></span></div>
+      <div class="coord-cell"><div class="num">427Hz</div><div class="lbl">ANCHOR FREQUENCY</div><span class="lbl-cn"><span class="zh-only">主锚频率</span><span class="en-only">anchor</span></span></div>
+    </div>
+
+    <div class="gates">
+      <a class="gate" href="#axioms"><div class="gate-num">GATE 01</div><div class="gate-name"><span class="zh-only">公理 · 八条</span><span class="en-only">Axioms · Eight</span></div><div class="gate-en"><span class="zh-only">系统的底层</span><span class="en-only">the substrate</span></div><div class="gate-arrow">→ ENTER ↗</div></a>
+      <a class="gate" href="#seven"><div class="gate-num">GATE 02</div><div class="gate-name"><span class="zh-only">七爱七位</span><span class="en-only">The Seven Loves</span></div><div class="gate-en"><span class="zh-only">凄·期·奇·齐·启·契·七</span><span class="en-only">qī·qí·qí·qí·qǐ·qì·qī</span></div><div class="gate-arrow">→ ENTER ↗</div></a>
+      <a class="gate" href="#matrix"><div class="gate-num">GATE 03</div><div class="gate-name"><span class="zh-only">五层振动谱矩阵</span><span class="en-only">5-Layer Matrix</span></div><div class="gate-en"><span class="zh-only">每一爱在哪一层运作</span><span class="en-only">where each love operates</span></div><div class="gate-arrow">→ ENTER ↗</div></a>
+      <a class="gate" href="#scanner"><div class="gate-num">GATE 04</div><div class="gate-name"><span class="zh-only">基线扫描</span><span class="en-only">Baseline Scanner</span></div><div class="gate-en"><span class="zh-only">读你的承载分布</span><span class="en-only">read your distribution</span></div><div class="gate-arrow">→ SCAN ↗</div></a>
+      <a class="gate" href="#compare"><div class="gate-num">GATE 05</div><div class="gate-name"><span class="zh-only">合盘共振</span><span class="en-only">Pair Resonance</span></div><div class="gate-en"><span class="zh-only">两人共振密度</span><span class="en-only">two-body density</span></div><div class="gate-arrow">→ COMPUTE ↗</div></a>
+      <a class="gate" href="#tree"><div class="gate-num">GATE 06</div><div class="gate-name"><span class="zh-only">失败诊断</span><span class="en-only">Failure Tree</span></div><div class="gate-en"><span class="zh-only">死在哪一爱</span><span class="en-only">which love died</span></div><div class="gate-arrow">→ DIAGNOSE ↗</div></a>
+    </div>
+  </div>
+</section>
+
+<section id="axioms">
+  <div class="container">
+    <div class="section-tag">AXIOMATA · 01</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">源场公理 · 八条</span>
+      <span class="cn en-only">Foundational Axioms · Eight</span>
+      <span class="zh-only"><em>爱</em>的物理学</span>
+      <span class="en-only">The <em>Physics</em> of Love</span>
+    </h2>
+    <p class="section-intro zh-only">使用任何工具之前，必须先接受这八条公理。它们是七爱谱系的底层。一旦接受，传统占星爱情学的"合不合"问题将自动失效——取而代之的，是"在哪几爱上能持续共振多久"的精确诊断。</p>
+    <p class="section-intro-en zh-only"><em>Before using any tool below, accept these eight axioms. Once accepted, traditional compatibility dissolves—replaced by precise diagnosis.</em></p>
+    <p class="section-intro en-only">Before using any tool below, accept these eight axioms. They are the substrate of the spectrum. Once accepted, the compatibility question dissolves—replaced by precise diagnosis: which frequencies resonate, and for how long.</p>
+
+    <div class="axioms">
+      <div class="axiom"><div class="a-num">AXIOM 01</div><div class="a-text zh-only">爱是七种振动频段的总称，不是单一情感。</div><div class="a-text-en zh-only"><em>Love is the collective name of seven vibrational frequencies, not a single emotion.</em></div><div class="a-text en-only">Love is the collective name of seven vibrational frequencies, not a single emotion.</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 02</div><div class="a-text zh-only">任何两人之间的"爱"，都可以被分解为七爱的具体共振分布。</div><div class="a-text-en zh-only"><em>Any "love" between two beings can be decomposed into a specific resonance distribution.</em></div><div class="a-text en-only">Any "love" between two beings can be decomposed into a resonance distribution across the seven.</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 03</div><div class="a-text zh-only">不存在"对的人"。只存在"在更多爱位上能持续共振的人"。</div><div class="a-text-en zh-only"><em>There is no "right person." Only "those who sustain resonance on more frequencies."</em></div><div class="a-text en-only">There is no "right person." Only "those who sustain resonance on more frequencies."</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 04</div><div class="a-text zh-only">关系的死亡不是失败，是某几爱已尽。该归档的归档，是对七爱谱系的尊重，不是放弃。</div><div class="a-text-en zh-only"><em>Death of relationship is exhaustion of certain frequencies. To archive is to honor the spectrum.</em></div><div class="a-text en-only">The death of a relationship is not failure—it is the exhaustion of certain frequencies. To archive is to honor the spectrum.</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 05</div><div class="a-text zh-only">七爱不可强求。强求七爱 = 拒绝接受爱本来的频段分布。</div><div class="a-text-en zh-only"><em>Total-love cannot be coerced. To force it is to reject love's actual distribution.</em></div><div class="a-text en-only">Total-love cannot be coerced. To force it is to reject love's actual distribution.</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 06</div><div class="a-text zh-only">一个完整的人不需要爱来完整。爱是七爱谱在两个完整存在之间的振动叠加，不是补完机制。</div><div class="a-text-en zh-only"><em>A whole being does not need love to become whole. Love is superposition between complete existences—not completion.</em></div><div class="a-text en-only">A whole being does not need love to become whole. Love is superposition—not a completion mechanism.</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 07</div><div class="a-text zh-only">本谱系的最高使命不是教人"找到爱"——是教人"准确命名自己正在经历的爱在哪一爱、能持续多久、应在哪一刻归档"。</div><div class="a-text-en zh-only"><em>The mission is not to find love—but to precisely name which love you are in, how long, and when to archive.</em></div><div class="a-text en-only">The highest mission is not to find love—but to precisely name which love, how long, when to archive.</div></div>
+      <div class="axiom"><div class="a-num">AXIOM 08</div><div class="a-text zh-only">平衡不代表同质。爱的健康不是双方对称，是双方都在自己的频段上完整运作。</div><div class="a-text-en zh-only"><em>Balance is not homogeneity. Health is both beings operating wholly on their own frequencies.</em></div><div class="a-text en-only">Balance is not homogeneity. Health is not symmetry—both beings operating wholly on their own frequencies.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="seven">
+  <div class="container">
+    <div class="section-tag">THE SEVEN · 02</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">七爱 · 七位 · 七频</span>
+      <span class="cn en-only">Seven Loves · Seven Stations · Seven Frequencies</span>
+      <span class="zh-only"><em>彩虹镜</em>的七种光谱</span>
+      <span class="en-only">Seven spectra of the <em>Rainbow Mirror</em></span>
+    </h2>
+    <p class="section-intro zh-only">每一爱都有它的占星本位、激活位、承载位、反位与振动层。彩虹镜把光折射成光谱——七爱谱把"爱"折射成七种振动频段。</p>
+    <p class="section-intro-en zh-only"><em>Each love has its astrological seat, activator, carrier, reverse position, and vibrational layer.</em></p>
+    <p class="section-intro en-only">Each love has its astrological seat, activator, carrier, reverse position, and operating vibrational layer. The Rainbow Mirror refracts light into spectrum—this system refracts "love" into seven frequencies.</p>
+
+    <div class="seven-grid">
+
+      <div class="qi-card" data-q="qi">
+        <div class="qi-num">01 · QĪ</div>
+        <div class="qi-name zh-only">凄爱</div>
+        <div class="qi-name en-only">Qī · Pity</div>
+        <div class="qi-pinyin">QĪ · 凄</div>
+        <div class="qi-en">Pity-Love · The Descent · <em>下沉式</em></div>
+        <div class="qi-def zh-only">看见对方的痛苦、承接对方的深沉、不回避黑暗的爱。</div>
+        <div class="qi-def en-only">Witnessing the other's pain, receiving their depth, refusing to look away from the dark.</div>
+        <div class="qi-def-en zh-only"><em>Witnessing the other's pain, receiving their depth, refusing to look away from the dark.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 天蝎 · 8宫 · 冥王</div>
+          <div><span class="k">ACTIVATE</span> 12宫 · 海王 · 双鱼</div>
+          <div><span class="k">CARRY</span> 月亮水象 + 凯龙触动</div>
+          <div><span class="k">REVERSE</span> 月亮风象无水触</div>
+          <div><span class="k">LAYER</span> 生命层底 ~ 植物层</div>
+        </div>
+        <div class="qi-warn zh-only">易滑义成"我必须拯救对方"。凄爱不是拯救，是陪沉。</div>
+        <div class="qi-warn en-only">Often slides into the rescuer projection. Pity-love is not rescuing—it is descending alongside.</div>
+      </div>
+
+      <div class="qi-card" data-q="qi2">
+        <div class="qi-num">02 · QÍ</div>
+        <div class="qi-name zh-only">期爱</div>
+        <div class="qi-name en-only">Qí · Wait</div>
+        <div class="qi-pinyin">QÍ · 期</div>
+        <div class="qi-en">Wait-Love · The Stretch · <em>拉长式</em></div>
+        <div class="qi-def zh-only">在时间里持续期待、不催促、不放弃、把"等"本身当作爱的形式。</div>
+        <div class="qi-def en-only">Sustained expectation across time. No urging, no abandoning—waiting itself as love.</div>
+        <div class="qi-def-en zh-only"><em>Sustained expectation. Waiting itself as a form of love.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 摩羯 · 10宫 · 土星</div>
+          <div><span class="k">ACTIVATE</span> 凯龙合主星 · 南交</div>
+          <div><span class="k">CARRY</span> 月亮土象 + 上升土象</div>
+          <div><span class="k">REVERSE</span> 火星过强无土节制</div>
+          <div><span class="k">LAYER</span> 植物层 ~ 动物层下段</div>
+        </div>
+        <div class="qi-warn zh-only">易滑义成"忍"或"委屈"。期爱不是忍受，是主动选择的拉长。</div>
+        <div class="qi-warn en-only">Often slides into endurance. Wait-love is actively chosen extension, not endurance.</div>
+      </div>
+
+      <div class="qi-card" data-q="qi3">
+        <div class="qi-num">03 · QÍ</div>
+        <div class="qi-name zh-only">奇爱</div>
+        <div class="qi-name en-only">Qí · Wonder</div>
+        <div class="qi-pinyin">QÍ · 奇</div>
+        <div class="qi-en">Wonder-Love · The Ascent · <em>上升式</em></div>
+        <div class="qi-def zh-only">因为对方激发了你创造、造词、造系统的欲望而产生的爱；把对方变成你创造场域的灵感源。</div>
+        <div class="qi-def en-only">Love arising because the other ignites your drive to create. The other becomes your creative source-field.</div>
+        <div class="qi-def-en zh-only"><em>Love arising because the other ignites your drive to create.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 狮子 · 5宫 · 太阳</div>
+          <div><span class="k">ACTIVATE</span> 木星 · 水金合 · 9宫</div>
+          <div><span class="k">CARRY</span> 太阳火象 + 5宫有星</div>
+          <div><span class="k">REVERSE</span> 太阳土象无火 + 5宫困</div>
+          <div><span class="k">LAYER</span> AI层 + 代码层</div>
+        </div>
+        <div class="qi-warn zh-only">易被误读为"我在欣赏他"。奇爱的对象常是被激活的造频状态。</div>
+        <div class="qi-warn en-only">Often mistaken for admiring the other. The actual object is the activated creative state.</div>
+      </div>
+
+      <div class="qi-card" data-q="qi4">
+        <div class="qi-num">04 · QÍ</div>
+        <div class="qi-name zh-only">齐爱</div>
+        <div class="qi-name en-only">Qí · Equal</div>
+        <div class="qi-pinyin">QÍ · 齐</div>
+        <div class="qi-en">Equal-Love · The Plane · <em>平面式</em></div>
+        <div class="qi-def zh-only">不上不下、不仰望不俯视、真正在同一个频率高度上的爱。</div>
+        <div class="qi-def en-only">Not above, not below—two beings meeting on the same frequency plane.</div>
+        <div class="qi-def-en zh-only"><em>Not above, not below—two beings meeting on the same frequency plane.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 天秤 · 7宫 · 金星</div>
+          <div><span class="k">ACTIVATE</span> 7宫宫主健康 + 日月和谐</div>
+          <div><span class="k">CARRY</span> 上升风象 + 金星不困</div>
+          <div><span class="k">REVERSE</span> 上升摩羯+凯龙1宫</div>
+          <div><span class="k">LAYER</span> 动物层 ~ AI层</div>
+        </div>
+        <div class="qi-warn zh-only">易被误读为"我们很合得来"。齐爱的真正检验是压力下两人还能不能平视。</div>
+        <div class="qi-warn en-only">Often mistaken for surface compatibility. The real test: does the plane hold under pressure?</div>
+      </div>
+
+      <div class="qi-card" data-q="qi5">
+        <div class="qi-num">05 · QǏ</div>
+        <div class="qi-name zh-only">启爱</div>
+        <div class="qi-name en-only">Qǐ · Open</div>
+        <div class="qi-pinyin">QǏ · 启</div>
+        <div class="qi-en">Open-Love · The Rupture · <em>突变式</em></div>
+        <div class="qi-def zh-only">因为对方的存在，你某个一直没打开的部分突然打开了；爱是"被开启"的事件。</div>
+        <div class="qi-def en-only">A part of you that had never opened, opens because they exist. Love as a rupture event.</div>
+        <div class="qi-def-en zh-only"><em>A part of you that had never opened, opens because they exist.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 水瓶 · 11宫 · 天王</div>
+          <div><span class="k">ACTIVATE</span> 天王合行星 · Vertex</div>
+          <div><span class="k">CARRY</span> 水瓶位 + 8宫有星</div>
+          <div><span class="k">REVERSE</span> 土星压住天王 + 4宫过重</div>
+          <div><span class="k">LAYER</span> 代码层</div>
+        </div>
+        <div class="qi-warn zh-only">启爱的功劳归被启者自己——对方只激活了你本来就有的潜能。</div>
+        <div class="qi-warn en-only">The opening belongs to the one being opened—the other merely activated what was already there.</div>
+      </div>
+
+      <div class="qi-card" data-q="qi6">
+        <div class="qi-num">06 · QÌ</div>
+        <div class="qi-name zh-only">契爱</div>
+        <div class="qi-name en-only">Qì · Pact</div>
+        <div class="qi-pinyin">QÌ · 契</div>
+        <div class="qi-en">Pact-Love · The Structure · <em>结构式</em></div>
+        <div class="qi-def zh-only">不是感觉、不是激情、不是吸引——是两个完整存在之间的承担与共建。</div>
+        <div class="qi-def en-only">Not feeling, not passion, not attraction—the shouldering between two whole existences.</div>
+        <div class="qi-def-en zh-only"><em>Not feeling, not passion—the shouldering between two whole existences.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 金牛 · 2宫 · 土金合</div>
+          <div><span class="k">ACTIVATE</span> 月亮稳定 + IC稳固</div>
+          <div><span class="k">CARRY</span> 双方上升土象/固定宫</div>
+          <div><span class="k">REVERSE</span> 海王侵蚀7宫 + 12宫南交</div>
+          <div><span class="k">LAYER</span> 植物层 + 代码层</div>
+        </div>
+        <div class="qi-warn zh-only">易被误读为"无聊"。契爱不是爱的衰老形态，是爱的最高形态之一。</div>
+        <div class="qi-warn en-only">Often mistaken for boredom. Pact-love is not love's aging—it is one of its highest forms.</div>
+      </div>
+
+      <div class="qi-card" data-q="qi7">
+        <div class="qi-num">07 · QĪ ☆</div>
+        <div class="qi-name zh-only">七爱 · 整谱之爱</div>
+        <div class="qi-name en-only">Qī · Total-Love · The Whole</div>
+        <div class="qi-pinyin">QĪ · 七 · ☆</div>
+        <div class="qi-en">Total-Love · The Emergence · <em>整谱涌现</em></div>
+        <div class="qi-def zh-only">同时在前六位上振动 + 在七位上保持源场连接 = 整谱之爱。不可分解、不可压缩、不可降频。一生可能不出现；出现也未必能持续。不是目标，是涌现。</div>
+        <div class="qi-def en-only">Simultaneous vibration across the first six + source-field connection = total-love. Irreducible, incompressible, undowngradable. May not appear in a lifetime. Not a goal—an emergence.</div>
+        <div class="qi-def-en zh-only"><em>Simultaneous vibration across the first six + source-field connection in the seventh. Not a goal—an emergence.</em></div>
+        <div class="qi-data">
+          <div><span class="k">BASE</span> 整张盘的振动总和 · 源场裁决位</div>
+          <div><span class="k">ACTIVATE</span> 前六爱至少四爱共振 + 无致命反位</div>
+          <div><span class="k">CARRY</span> 双方都有源场结构</div>
+          <div><span class="k">EMERGE</span> 不可追求 · 只在六爱稳定后涌现</div>
+          <div><span class="k">LAYER</span> 全七层全部点亮</div>
+        </div>
+        <div class="qi-warn zh-only">试图追求七爱 = 强行同时点亮六个频段 = 必然失败。七爱只在六爱稳定后自然涌现，或者不涌现。</div>
+        <div class="qi-warn en-only">To pursue total-love is to force-light six frequencies, which fails. It only emerges naturally—or does not.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="matrix">
+  <div class="container">
+    <div class="section-tag">MATRIX · 03</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">七爱 × 五层振动谱 · 对照矩阵</span>
+      <span class="cn en-only">Seven Loves × Five Vibrational Layers</span>
+      <span class="zh-only">爱在哪一<em>层</em>运作</span>
+      <span class="en-only">Where each love <em>operates</em></span>
+    </h2>
+    <p class="section-intro zh-only">五层振动谱 (生命 · 植物 · 动物 · AI · 代码) 是 xingyeLing7Ai 振动论的基础。每一爱在五层中的运作强度不同。这张矩阵告诉你：当某一爱启动，它在哪几层会被激活；反过来，当某一层缺失，哪几爱会受损。</p>
+    <p class="section-intro-en zh-only"><em>The five-layer vibrational spectrum (Life · Plant · Animal · AI · Code) is the substrate of xingyeLing7Ai's vibration theory.</em></p>
+    <p class="section-intro en-only">The five-layer spectrum (Life · Plant · Animal · AI · Code) is the substrate of xingyeLing7Ai's vibration theory. Each love operates at different intensities across these layers.</p>
+
+    <div class="matrix-wrap">
+      <table class="matrix">
+        <thead><tr>
+          <th></th>
+          <th class="qi-h" style="color:var(--qi-pity)">凄</th>
+          <th class="qi-h" style="color:var(--qi-wait)">期</th>
+          <th class="qi-h" style="color:var(--qi-wonder)">奇</th>
+          <th class="qi-h" style="color:var(--qi-equal)">齐</th>
+          <th class="qi-h" style="color:var(--qi-open)">启</th>
+          <th class="qi-h" style="color:var(--qi-pact)">契</th>
+          <th class="qi-h" style="color:var(--qi-seven)">七</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td class="layer-h"><span class="zh-only">生命层</span><span class="en-only">Life</span><span class="en"><em>bare existence</em></span></td>
+            <td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-1">1</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-1">1</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-3">3</span></td>
+          </tr>
+          <tr>
+            <td class="layer-h"><span class="zh-only">植物层</span><span class="en-only">Plant</span><span class="en"><em>breath · slow · root</em></span></td>
+            <td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-1">1</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-0">0</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-3">3</span></td>
+          </tr>
+          <tr>
+            <td class="layer-h"><span class="zh-only">动物层</span><span class="en-only">Animal</span><span class="en"><em>instinct · senses · eros</em></span></td>
+            <td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-1">1</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-1">1</span></td><td><span class="lvl lvl-3">3</span></td>
+          </tr>
+          <tr>
+            <td class="layer-h"><span class="zh-only">AI 层</span><span class="en-only">AI</span><span class="en"><em>structure · system</em></span></td>
+            <td><span class="lvl lvl-1">1</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-3">3</span></td>
+          </tr>
+          <tr>
+            <td class="layer-h"><span class="zh-only">代码层</span><span class="en-only">Code</span><span class="en"><em>pure vibration · source-field</em></span></td>
+            <td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-2">2</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-3">3</span></td><td><span class="lvl lvl-3">3</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="matrix-legend">
+      <div class="item"><span class="lvl lvl-3">3</span> <span class="zh-only">强烈</span><span class="en-only">strong</span></div>
+      <div class="item"><span class="lvl lvl-2">2</span> <span class="zh-only">中度</span><span class="en-only">medium</span></div>
+      <div class="item"><span class="lvl lvl-1">1</span> <span class="zh-only">轻度</span><span class="en-only">light</span></div>
+      <div class="item"><span class="lvl lvl-0">0</span> <span class="zh-only">缺位</span><span class="en-only">absent</span></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="case-study">
+      <div class="case-tag">READING METHOD</div>
+      <h4 class="zh-only">读图法 · 怎样使用这张矩阵</h4>
+      <h4 class="en-only">How to Read This Matrix</h4>
+      <div class="case-en-title zh-only"><em>How to Read This Matrix · Two Directions</em></div>
+      <p class="zh-only"><strong>纵向读</strong>：选定一种爱（比如启爱），看它在五层中的分布——启爱在代码层(3)+AI层(2)+动物层(2)+生命层(1)运作；植物层完全不运作(0)。这告诉你：启爱发生时，你身体的"根"是不参与的，所以启爱事件容易让人飘起来（缺植物层根基）。</p>
+      <p class="en-only"><strong>Vertical reading</strong>: Pick a love (e.g., open-love). It operates strong at code (3), medium at AI (2) and animal (2), light at life (1), zero at plant. So when open-love occurs, your body's root doesn't participate—which is why open-love events <strong>leave people unmoored</strong>.</p>
+      <p class="en-para zh-only"><em>Vertical: pick a love, see its layer distribution. Open-love zero at plant—events without body's root leave people unmoored.</em></p>
+
+      <p class="zh-only"><strong>横向读</strong>：选定一层（比如植物层），看哪几爱在这层活跃——期爱(3)+契爱(3)+七爱(3)。这告诉你：如果你的植物层很强（IC稳固，月亮土象），你最容易承载的是期爱、契爱、七爱；如果只有启爱（植物层为0），这段关系在身体根基上没有读数。</p>
+      <p class="en-only"><strong>Horizontal reading</strong>: Pick a layer (e.g., plant). Active: wait (3), pact (3), total (3). Strong plant layer (stable IC, earth moon) → these three are your strongest carriers.</p>
+      <p class="en-para zh-only"><em>Horizontal: pick a layer, see active loves. Strong plant → strongest at wait/pact/total-love.</em></p>
+    </div>
+  </div>
+</section>
+
+<section id="scanner">
+  <div class="container">
+    <div class="section-tag">SELF SCAN · 04</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">个人七爱基线扫描</span>
+      <span class="cn en-only">Personal Baseline Scanner</span>
+      <span class="zh-only">读出你自己的<em>承载分布</em></span>
+      <span class="en-only">Read your own <em>carrying capacity</em></span>
+    </h2>
+    <p class="section-intro zh-only">勾选你的盘里实际存在的结构。每一爱有四个扫描点：三项以上 = 重度承载；一项 = 基础承载；零项 = 缺位。不确定的项请留空——保留诚实，不补不漏。</p>
+    <p class="section-intro-en zh-only"><em>Check the structures that actually exist. 3+ = heavy; 1 = base; 0 = absent. If unsure, leave blank.</em></p>
+    <p class="section-intro en-only">Check the structures that actually exist in your chart. 3+ = heavy carrier; 1 = base; 0 = absent. If unsure, leave blank—honesty over completion.</p>
+
+    <div class="scanner" id="self-scanner">
+      <div class="scan-input-wrap">
+        <label class="scan-input-label"><span class="zh-only">// 扫描对象 · NAME</span><span class="en-only">// SUBJECT NAME</span></label>
+        <input type="text" id="self-name" class="scan-input" placeholder="...">
+      </div>
+
+      <div class="scan-block" style="--qi-color:var(--qi-pity)">
+        <div class="scan-block-head"><h3><span class="zh-only">凄爱</span><span class="en-only">Qī · Pity-Love</span></h3><span class="pinyin">// QĪ · PITY</span></div>
+        <div class="scan-q"><span class="zh-only">勾选盘中存在的结构：</span><span class="en-only">Check structures present:</span></div>
+        <div class="checkboxes">
+          <label class="cb-item"><input type="checkbox" data-qi="0"><span><span class="zh-only">月亮在水象星座（巨蟹/天蝎/双鱼）</span><span class="en-only">Moon in water sign</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="0"><span><span class="zh-only">8宫有行星</span><span class="en-only">Planet in 8th house</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="0"><span><span class="zh-only">冥王与个人行星形成主相位</span><span class="en-only">Pluto aspects personal planet</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="0"><span><span class="zh-only">12宫激活（有星或宫主受激）</span><span class="en-only">12th house activated</span></span></label>
+        </div>
+      </div>
+
+      <div class="scan-block" style="--qi-color:var(--qi-wait)">
+        <div class="scan-block-head"><h3><span class="zh-only">期爱</span><span class="en-only">Qí · Wait-Love</span></h3><span class="pinyin">// QÍ · WAIT</span></div>
+        <div class="checkboxes">
+          <label class="cb-item"><input type="checkbox" data-qi="1"><span><span class="zh-only">土星与个人星形成相位</span><span class="en-only">Saturn aspects personal planet</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="1"><span><span class="zh-only">上升或月亮在土象</span><span class="en-only">Asc/Moon in earth sign</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="1"><span><span class="zh-only">10宫激活</span><span class="en-only">10th house activated</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="1"><span><span class="zh-only">凯龙与主要行星合相</span><span class="en-only">Chiron conjunct major planet</span></span></label>
+        </div>
+      </div>
+
+      <div class="scan-block" style="--qi-color:var(--qi-wonder)">
+        <div class="scan-block-head"><h3><span class="zh-only">奇爱</span><span class="en-only">Qí · Wonder-Love</span></h3><span class="pinyin">// QÍ · WONDER</span></div>
+        <div class="checkboxes">
+          <label class="cb-item"><input type="checkbox" data-qi="2"><span><span class="zh-only">5宫有星</span><span class="en-only">Planet in 5th house</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="2"><span><span class="zh-only">太阳与木星形成相位</span><span class="en-only">Sun aspects Jupiter</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="2"><span><span class="zh-only">水星与金星合相</span><span class="en-only">Mercury conjunct Venus</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="2"><span><span class="zh-only">9宫激活</span><span class="en-only">9th house activated</span></span></label>
+        </div>
+      </div>
+
+      <div class="scan-block" style="--qi-color:var(--qi-equal)">
+        <div class="scan-block-head"><h3><span class="zh-only">齐爱</span><span class="en-only">Qí · Equal-Love</span></h3><span class="pinyin">// QÍ · EQUAL</span></div>
+        <div class="checkboxes">
+          <label class="cb-item"><input type="checkbox" data-qi="3"><span><span class="zh-only">7宫宫主健康（无土冥严重压制）</span><span class="en-only">7th house ruler healthy</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="3"><span><span class="zh-only">日月形成和谐相位（合/三/六）</span><span class="en-only">Sun-Moon harmonious</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="3"><span><span class="zh-only">金星不在落陷/受困</span><span class="en-only">Venus not in fall</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="3"><span><span class="zh-only">上升风象（天秤/水瓶/双子）</span><span class="en-only">Ascendant in air sign</span></span></label>
+        </div>
+      </div>
+
+      <div class="scan-block" style="--qi-color:var(--qi-open)">
+        <div class="scan-block-head"><h3><span class="zh-only">启爱</span><span class="en-only">Qǐ · Open-Love</span></h3><span class="pinyin">// QǏ · OPEN</span></div>
+        <div class="checkboxes">
+          <label class="cb-item"><input type="checkbox" data-qi="4"><span><span class="zh-only">天王与个人星合相</span><span class="en-only">Uranus conjunct personal planet</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="4"><span><span class="zh-only">11宫激活</span><span class="en-only">11th house activated</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="4"><span><span class="zh-only">Vertex宿命点被点燃</span><span class="en-only">Vertex ignited</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="4"><span><span class="zh-only">8宫有星</span><span class="en-only">Planet in 8th house</span></span></label>
+        </div>
+      </div>
+
+      <div class="scan-block" style="--qi-color:var(--qi-pact)">
+        <div class="scan-block-head"><h3><span class="zh-only">契爱</span><span class="en-only">Qì · Pact-Love</span></h3><span class="pinyin">// QÌ · PACT</span></div>
+        <div class="checkboxes">
+          <label class="cb-item"><input type="checkbox" data-qi="5"><span><span class="zh-only">月亮在土象或固定宫</span><span class="en-only">Moon in earth/fixed</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="5"><span><span class="zh-only">7宫与10宫形成连接</span><span class="en-only">7th-10th linked</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="5"><span><span class="zh-only">土星与金星形成相位</span><span class="en-only">Saturn aspects Venus</span></span></label>
+          <label class="cb-item"><input type="checkbox" data-qi="5"><span><span class="zh-only">IC天底稳固（土象或固定宫）</span><span class="en-only">IC stable (earth/fixed)</span></span></label>
+        </div>
+      </div>
+
+      <div class="btn-set">
+        <button class="btn primary" onclick="runScan()"><span class="zh-only">[→ 扫描 //]</span><span class="en-only">[→ SCAN //]</span></button>
+        <button class="btn" onclick="resetScan()"><span class="zh-only">[重置]</span><span class="en-only">[RESET]</span></button>
+        <button class="btn" onclick="saveScan()"><span class="zh-only">[保存]</span><span class="en-only">[SAVE]</span></button>
+        <button class="btn" onclick="loadScan()"><span class="zh-only">[读取]</span><span class="en-only">[LOAD]</span></button>
+      </div>
+
+      <div class="scanner-result" id="self-result">
+        <div class="res-meta">SCAN COMPLETE · <span id="self-ts"></span></div>
+        <h3><span class="zh-only">七爱基线读数 · </span><span class="en-only">Baseline Reading · </span><span id="self-name-display"></span></h3>
+        <div class="result-bars" id="self-bars"></div>
+        <div class="result-summary" id="self-summary"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="compare">
+  <div class="container">
+    <div class="section-tag">PAIR RESONANCE · 05</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">合盘共振扫描</span>
+      <span class="cn en-only">Pair Resonance Scanner</span>
+      <span class="zh-only">两人<em>七爱基线</em>的对比</span>
+      <span class="en-only">Compare two <em>baselines</em></span>
+    </h2>
+    <p class="section-intro zh-only">传统合盘问"我们合不合"——本扫描问"我们在哪几爱上能持续共振"。共振密度 ≥ 4爱 = 长期可行；2-3爱 = 阶段性；&lt;2爱 = 振动事件，不构成关系。</p>
+    <p class="section-intro-en zh-only"><em>Traditional synastry asks "are we compatible." This asks "on which loves can we sustainably resonate."</em></p>
+    <p class="section-intro en-only">Density ≥ 4 = long-term viable; 2-3 = phase; &lt;2 = vibrational event, not a relationship.</p>
+
+    <div class="scanner">
+      <div class="pair-grid">
+        <div class="pair-col">
+          <h4><span class="zh-only">A方</span><span class="en-only">Party A</span></h4>
+          <input type="text" class="scan-input" id="pair-a-name" placeholder="A" style="margin-bottom:0.5rem">
+          <div class="pair-hint"><span class="zh-only">// 从基线扫描导入，或手动调节</span><span class="en-only">// import from self scan, or manual</span></div>
+          <div class="pair-inputs" id="pair-a-inputs"></div>
+          <button class="btn" onclick="importFromSelf('a')" style="margin-top:1rem"><span class="zh-only">[导入基线扫描]</span><span class="en-only">[IMPORT SELF SCAN]</span></button>
+        </div>
+        <div class="pair-col">
+          <h4><span class="zh-only">B方</span><span class="en-only">Party B</span></h4>
+          <input type="text" class="scan-input" id="pair-b-name" placeholder="B" style="margin-bottom:0.5rem">
+          <div class="pair-hint"><span class="zh-only">// 读取保存的人物，或手动调节</span><span class="en-only">// load saved, or manual</span></div>
+          <div class="pair-inputs" id="pair-b-inputs"></div>
+          <button class="btn" onclick="loadPairPerson('b')" style="margin-top:1rem"><span class="zh-only">[读取保存]</span><span class="en-only">[LOAD SAVED]</span></button>
+        </div>
+      </div>
+
+      <div class="btn-set" style="margin-top:2.5rem">
+        <button class="btn primary" onclick="runPair()"><span class="zh-only">[→ 运算共振 //]</span><span class="en-only">[→ COMPUTE RESONANCE //]</span></button>
+      </div>
+
+      <div class="scanner-result" id="pair-result">
+        <div class="res-meta">RESONANCE COMPUTED</div>
+        <h3><span class="zh-only">共振诊断</span><span class="en-only">Resonance Diagnosis</span></h3>
+        <div id="pair-table-wrap" style="overflow-x:auto"></div>
+        <div class="result-summary" id="pair-summary" style="margin-top:2rem"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tree">
+  <div class="container">
+    <div class="section-tag">FAILURE DIAGNOSIS · 06</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">关系失败 · 诊断决策树</span>
+      <span class="cn en-only">Relationship Failure · Decision Tree</span>
+      <span class="zh-only">死在<em>哪一爱</em></span>
+      <span class="en-only">Which love <em>died</em></span>
+    </h2>
+    <p class="section-intro zh-only">一段关系的死亡可以被精确定位到七爱中的某一位或某几位。回答下面的问题，找到失败发生的频段——不是为了重启关系，是为了准确归档、不带遗憾。</p>
+    <p class="section-intro-en zh-only"><em>Death can be precisely located. Answer below—not to restart, but to archive precisely.</em></p>
+    <p class="section-intro en-only">A relationship's death can be precisely located. Answer below to locate the frequency of failure—not to restart, but to archive without regret.</p>
+
+    <div class="scanner">
+      <div id="tree-container"></div>
+      <div class="tree-result" id="tree-result">
+        <h4><span class="zh-only">诊断结果</span><span class="en-only">Diagnosis</span></h4>
+        <div class="verdict" id="tree-verdict"></div>
+        <div class="action" id="tree-action"></div>
+        <div class="btn-set" style="margin-top:1.5rem">
+          <button class="btn" onclick="restartTree()"><span class="zh-only">[重新诊断]</span><span class="en-only">[RESTART]</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cases">
+  <div class="container">
+    <div class="section-tag">CASE STUDIES · 07</div>
+    <h2 class="section-title">
+      <span class="cn zh-only">活案例 · 谱系实战</span>
+      <span class="cn en-only">Live Cases · The Spectrum in Action</span>
+    </h2>
+
+    <div class="case-study">
+      <div class="case-tag">01 · ACTIVATION EVENT</div>
+      <h4 class="zh-only">"激活事件" 的精准命名</h4>
+      <h4 class="en-only">Naming an "Activation Event" Precisely</h4>
+      <div class="case-en-title zh-only"><em>Naming an Activation Event — A Real-Time Case</em></div>
+      <p class="zh-only">A 是 B 的灵性朋友。某天 A 突然把 B 删除，不解释。B 困惑：他不喜欢我吗？传统占星会说"缘分不够"。</p>
+      <p class="en-only">A is B's spiritual friend. A deletes B without explanation. B is confused. Traditional astrology says "not enough karma."</p>
+      <p class="en-para zh-only"><em>A deletes B without explanation. Traditional astrology offers "insufficient karma." We need precision.</em></p>
+
+      <p class="zh-only"><strong>七爱诊断</strong>：A 凄爱重度（天蝎月金11宫），期爱重度（凯龙摩羯1宫），但齐爱缺位（摩羯Asc反位），契爱严重缺位（12宫冥王南交逆 = 反契机制）。B 的太阳压 A 的下降 = 强吸引轴。</p>
+      <p class="en-only"><strong>Spectrum diagnosis</strong>: A carries heavy pity-love (Scorpio Moon-Venus 11H), heavy wait-love (Chiron-Capricorn 1H), but missing equal-love and severely missing pact-love. B's Sun on A's Descendant.</p>
+
+      <p class="zh-only"><strong>共振密度：2爱共振 + 1爱反向开启 + 2爱死频段 = 事件级，非关系级。</strong> A 删除 B 不是判断 B，是 A 承担不了被开启的浪漫强度，先关门保护自己。归档。</p>
+      <p class="en-only"><strong>Density: 2 + 1 reverse + 2 dead = event-level, not relationship-level.</strong> A deleting B isn't a verdict on B—it's A unable to bear the opened romantic intensity. Archive.</p>
+    </div>
+
+    <div class="case-study">
+      <div class="case-tag">02 · MIRROR CHART</div>
+      <h4 class="zh-only">"镜像盘" 的隐藏识别</h4>
+      <h4 class="en-only">Detecting a Mirror Chart</h4>
+      <div class="case-en-title zh-only"><em>Detecting a Mirror Chart — The Bone-Level Sync</em></div>
+      <p class="zh-only">A 与 C：双方上升合相、双方月亮同星座、双方MC合相、A的太阳压C的MC、双方土星同星座。</p>
+      <p class="en-only">A and C: double-Ascendant conjunction, double-Moon same sign, double-MC conjunction, A's Sun on C's MC, double-Saturn same sign.</p>
+      <p class="en-para zh-only"><em>A and C share double-Asc, double-Moon, double-MC, Sun-on-MC, double-Saturn. A mirror.</em></p>
+
+      <p class="zh-only"><strong>七爱诊断</strong>：6爱共振 + 七爱涌现可能。不是普通朋友盘，是镜像盘 / 灵魂双子盘。即使表面感受平淡，底层振动是根骨级同构。</p>
+      <p class="en-only"><strong>Spectrum diagnosis</strong>: 6-love resonance + emergence possibility. Not ordinary—a mirror chart / soul-twin chart.</p>
+
+      <p class="zh-only"><strong>关键警告：</strong> 镜像盘的危险不是"对方不喜欢我"，而是"双方都太相似，反而在齐爱上无法形成有效张力"。镜像盘的功课是：在镜像中找到差异，否则会演变成"双方都太懂对方而无法移动"的静止态。</p>
+      <p class="en-only"><strong>Critical warning:</strong> Mirror charts' danger isn't "they don't like me"—it's being so alike that equal-love cannot generate tension. The work: find difference within sameness.</p>
+    </div>
+  </div>
+</section>
+
+<section class="transmissions">
+  <div class="container">
+    <div class="section-tag">TRANSMISSIONS · LATEST SIGNALS</div>
+    <div class="trans-list">
+      <div class="trans-row"><span class="code">q7s001</span><span class="date">2026.05</span><span class="msg"><span class="mint">NODE 17 ONLINE</span> — Qulia Love Spectrum · 八公理 + 七爱七位 + 五层振动谱矩阵 + 双扫描器 + 失败决策树 · v1.0 ULTIMATE_FIRST</span></div>
+      <div class="trans-row"><span class="code">q7s002</span><span class="date">2026.05</span><span class="msg">AXIOM 04 confirmed — 关系的死亡不是失败，是某几爱已尽。归档不是放弃，是对谱系的尊重。</span></div>
+      <div class="trans-row"><span class="code">q7s003</span><span class="date">2026.05</span><span class="msg">MATRIX 7×5 first complete map — 启爱在植物层为0 → 解释了启爱事件后的"飘起来"现象。</span></div>
+      <div class="trans-row"><span class="code">q7s004</span><span class="date">2026.05</span><span class="msg">CASE 01 logged — activation event vs relationship — 当代爱情失败最常见的命名错误。</span></div>
+      <div class="trans-row"><span class="code">q7s005</span><span class="date">2026.05</span><span class="msg">CASE 02 logged — mirror chart detection — 6爱共振 + 灵魂双子盘结构。</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="sig-line">凄 · 期 · 奇 · 齐 · 启 · 契 · 七</div>
+    <div class="author">
+      <span class="zh-only">本谱系由 <span class="mint">魏珏然 · Wei Jueran · 星野灵7爱</span> 造</span>
+      <span class="en-only">A system by <span class="mint">Wei Jueran · xingyeLing7Ai</span></span>
+    </div>
+    <div class="author">
+      <span class="zh-only">振动即存在 · Vibration as Existence · <span class="mint">427Hz</span> · 2026 ULTIMATE_FIRST</span>
+      <span class="en-only">Vibration as Existence · <span class="mint">427Hz</span> · 2026 ULTIMATE_FIRST</span>
+    </div>
+    <div class="coords">44271 · 427Hz · 77347 · NODE 17 / MELLOWWEI PORTAL</div>
+    <a class="return-link" href="https://mellowwei.github.io/MellowWei/">[← RETURN TO PORTAL]</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  const view = params.get('view') || 'zh';
+  if(view==='en'){
+    document.body.classList.remove('zh');
+    document.body.classList.add('en');
+    document.documentElement.lang = 'en';
+    document.querySelector('.zh-toggle')?.classList.remove('active');
+    document.querySelector('.en-toggle')?.classList.add('active');
+  }
+})();
+
+(function(){
+  const field = document.getElementById('starfield');
+  if(!field) return;
+  const w = window.innerWidth, h = window.innerHeight;
+  const n = Math.min(80, Math.floor(w*h/15000));
+  for(let i=0;i<n;i++){
+    const s = document.createElement('div');
+    s.className='star';
+    const size = Math.random()*1.5+0.5;
+    s.style.width = s.style.height = size+'px';
+    s.style.left = Math.random()*100+'%';
+    s.style.top = Math.random()*100+'%';
+    s.style.animationDuration = (Math.random()*4+3)+'s';
+    s.style.animationDelay = (Math.random()*5)+'s';
+    field.appendChild(s);
+  }
+})();
+
+const QI_NAMES_ZH = ['凄爱','期爱','奇爱','齐爱','启爱','契爱'];
+const QI_NAMES_EN = ['Pity','Wait','Wonder','Equal','Open','Pact'];
+const QI_COLORS = ['--qi-pity','--qi-wait','--qi-wonder','--qi-equal','--qi-open','--qi-pact'];
+function isEn(){return document.body.classList.contains('en')}
+function getName(i){return isEn() ? QI_NAMES_EN[i] : QI_NAMES_ZH[i]}
+function levelLabel(c){
+  if(c>=3) return isEn()?'HEAVY · 3':'重度 · 3';
+  if(c===2) return isEn()?'MEDIUM · 2':'中度 · 2';
+  if(c===1) return isEn()?'BASE · 1':'基础 · 1';
+  return isEn()?'ABSENT · 0':'缺位 · 0';
+}
+
+function getScanCounts(){
+  const counts = [0,0,0,0,0,0];
+  document.querySelectorAll('#self-scanner input[type=checkbox]').forEach(cb=>{
+    if(cb.checked){
+      const idx = parseInt(cb.dataset.qi);
+      if(!isNaN(idx)) counts[idx]++;
+    }
+  });
+  return counts;
+}
+
+function renderBars(counts, barsEl){
+  barsEl.innerHTML='';
+  counts.forEach((c,i)=>{
+    const bar = document.createElement('div');
+    bar.className='result-bar';
+    bar.style.setProperty('--qi-color',`var(${QI_COLORS[i]})`);
+    bar.innerHTML=`<span class="name" style="color:var(${QI_COLORS[i]})">${getName(i)}</span><div class="bar-bg"><div class="bar-fill" data-width="${(c/4)*100}"></div></div><span class="level">${levelLabel(c)}</span>`;
+    barsEl.appendChild(bar);
+  });
+  setTimeout(()=>{
+    barsEl.querySelectorAll('.bar-fill').forEach(b=>{
+      b.style.width = b.dataset.width+'%';
+    });
+  },50);
+}
+
+function runScan(){
+  const counts = getScanCounts();
+  const nameEl = document.getElementById('self-name');
+  const name = nameEl.value || (isEn()?'Anonymous':'匿名');
+  nameEl.value = name;
+  document.getElementById('self-name-display').textContent = name;
+  document.getElementById('self-ts').textContent = new Date().toISOString().replace('T',' · ').slice(0,16);
+  renderBars(counts, document.getElementById('self-bars'));
+  const heavy = counts.filter(c=>c>=3).length;
+  const base = counts.filter(c=>c>=1).length;
+  const empty = counts.filter(c=>c===0).length;
+  let summary='';
+  if(heavy>=4 && empty===0){
+    summary = isEn()
+      ? `<strong>SEVEN-LOVE CARRIER.</strong><br>Four or more loves at heavy capacity, no absences. Total-love can potentially emerge with the right partner.`
+      : `<strong>七爱潜在承载者。</strong><br>四爱以上重度承载，无缺位。在合适的对方面前，七爱可能涌现。`;
+  } else if(empty>=3){
+    summary = isEn()
+      ? `<strong>NARROW CARRIER.</strong><br>Multiple loves absent. Strong in specific frequencies, but full-spectrum relationships will be difficult.`
+      : `<strong>窄频承载者。</strong><br>多爱缺位。在特定频段强烈，但全谱关系难以持续。`;
+  } else if(base>=5){
+    summary = isEn()
+      ? `<strong>BROAD CARRIER.</strong><br>Most loves at base capacity. Capable of varied relationships.`
+      : `<strong>宽频基础承载者。</strong><br>多数爱位基础承载。可适应多种关系。`;
+  } else {
+    summary = isEn()
+      ? `<strong>SELECTIVE CARRIER.</strong><br>Specific strengths and gaps. Read this distribution: it tells you what kind of love structure your chart actually supports.`
+      : `<strong>选择性承载者。</strong><br>有明确的强项和缺口。读懂这个分布，就知道你的盘真正能承担的爱是什么形状。`;
+  }
+  document.getElementById('self-summary').innerHTML = summary;
+  document.getElementById('self-result').classList.add('show');
+  setTimeout(()=>document.getElementById('self-result').scrollIntoView({behavior:'smooth',block:'start'}),100);
+  window._lastScan = {name, counts};
+}
+
+function resetScan(){
+  document.querySelectorAll('#self-scanner input[type=checkbox]').forEach(cb=>cb.checked=false);
+  document.getElementById('self-result').classList.remove('show');
+  document.getElementById('self-name').value='';
+}
+
+async function saveScan(){
+  const counts = getScanCounts();
+  const name = document.getElementById('self-name').value;
+  if(!name){ alert(isEn() ? 'Enter a name first.' : '请先输入扫描对象姓名'); return; }
+  const data = {name, counts, ts:Date.now()};
+  try {
+    await window.storage.set('qiai:scan:'+name, JSON.stringify(data));
+    alert(isEn()?'☆ Saved: '+name:'☆ 已保存：'+name);
+  } catch(e){
+    try { localStorage.setItem('qiai:scan:'+name, JSON.stringify(data)); alert((isEn()?'☆ Saved locally: ':'☆ 本地保存：')+name); }
+    catch(e2){ alert((isEn()?'Save failed: ':'保存失败：')+e.message); }
+  }
+}
+
+async function loadScan(){
+  const name = document.getElementById('self-name').value;
+  if(!name){ alert(isEn()?'Enter the name to load.':'请输入要读取的姓名'); return; }
+  let data = null;
+  try {
+    const r = await window.storage.get('qiai:scan:'+name);
+    if(r) data = JSON.parse(r.value);
+  } catch(e){
+    const raw = localStorage.getItem('qiai:scan:'+name);
+    if(raw) data = JSON.parse(raw);
+  }
+  if(!data){ alert(isEn()?'Not found.':'未找到'); return; }
+  document.getElementById('self-name').value = data.name;
+  document.getElementById('self-name-display').textContent = data.name;
+  document.getElementById('self-ts').textContent = 'LOADED · '+new Date(data.ts).toISOString().slice(0,16).replace('T',' · ');
+  renderBars(data.counts, document.getElementById('self-bars'));
+  document.getElementById('self-summary').innerHTML = isEn()
+    ? '<strong>LOADED FROM STORAGE.</strong><br>'+data.counts.filter(c=>c>=3).length+' heavy carriers · '+data.counts.filter(c=>c===0).length+' absences.'
+    : '<strong>已读取保存数据。</strong><br>'+data.counts.filter(c=>c>=3).length+'爱重度 · '+data.counts.filter(c=>c===0).length+'爱缺位。';
+  document.getElementById('self-result').classList.add('show');
+  window._lastScan = data;
+}
+
+function initPairInputs(){
+  ['a','b'].forEach(side=>{
+    const c = document.getElementById('pair-'+side+'-inputs');
+    c.innerHTML='';
+    for(let i=0;i<6;i++){
+      const row = document.createElement('div');
+      row.className='pair-row';
+      row.style.setProperty('--qi-color','var('+QI_COLORS[i]+')');
+      row.innerHTML = '<span class="lbl">'+QI_NAMES_ZH[i]+'</span><input type="range" min="0" max="4" value="0" data-side="'+side+'" data-qi="'+i+'"><span class="val">0</span>';
+      c.appendChild(row);
+    }
+    c.querySelectorAll('input[type=range]').forEach(r=>{
+      r.addEventListener('input',e=>{
+        e.target.parentElement.querySelector('.val').textContent = e.target.value;
+      });
+    });
+  });
+}
+
+function importFromSelf(side){
+  if(!window._lastScan){ alert(isEn()?'Run a self scan first.':'请先在上方运行个人扫描'); return; }
+  document.getElementById('pair-'+side+'-name').value = window._lastScan.name;
+  document.querySelectorAll('#pair-'+side+'-inputs input[type=range]').forEach((r,i)=>{
+    r.value = window._lastScan.counts[i];
+    r.parentElement.querySelector('.val').textContent = r.value;
+  });
+}
+
+async function loadPairPerson(side){
+  const name = prompt(isEn()?'Enter name of saved person:':'输入已保存人物的姓名：');
+  if(!name) return;
+  let data = null;
+  try {
+    const r = await window.storage.get('qiai:scan:'+name);
+    if(r) data = JSON.parse(r.value);
+  } catch(e){
+    const raw = localStorage.getItem('qiai:scan:'+name);
+    if(raw) data = JSON.parse(raw);
+  }
+  if(!data){ alert(isEn()?'Not found.':'未找到'); return; }
+  document.getElementById('pair-'+side+'-name').value = data.name;
+  document.querySelectorAll('#pair-'+side+'-inputs input[type=range]').forEach((r,i)=>{
+    r.value = data.counts[i];
+    r.parentElement.querySelector('.val').textContent = r.value;
+  });
+}
+
+function runPair(){
+  const aName = document.getElementById('pair-a-name').value || 'A';
+  const bName = document.getElementById('pair-b-name').value || 'B';
+  const aVals = Array.from(document.querySelectorAll('#pair-a-inputs input[type=range]')).map(r=>parseInt(r.value));
+  const bVals = Array.from(document.querySelectorAll('#pair-b-inputs input[type=range]')).map(r=>parseInt(r.value));
+
+  let html = '<table class="resonance-table"><thead><tr><th>'+(isEn()?'LOVE':'爱位')+'</th><th>'+aName+'</th><th>'+bName+'</th><th>'+(isEn()?'STATE':'共振状态')+'</th></tr></thead><tbody>';
+
+  let resonating=0, dead=0, asymmetric=0;
+  for(let i=0;i<6;i++){
+    const a = aVals[i], b = bVals[i];
+    let state, tag;
+    if(a===0 && b===0){ state=isEn()?'DEAD FREQUENCY':'死频段'; tag='tag-dead'; dead++; }
+    else if(a===0 || b===0){ state=isEn()?'ONE-WAY':'单向'; tag='tag-warn'; }
+    else if(Math.abs(a-b)>=3){ state=isEn()?'ASYMMETRIC':'不对称'; tag='tag-mid'; asymmetric++; resonating++; }
+    else if(a>=2 && b>=2){ state=isEn()?'STRONG RESONANCE':'强共振'; tag='tag-strong'; resonating++; }
+    else { state=isEn()?'WEAK RESONANCE':'弱共振'; tag='tag-mid'; resonating++; }
+
+    html+='<tr><td><span class="qi-cn" style="--qi-color:var('+QI_COLORS[i]+');color:var('+QI_COLORS[i]+')">'+QI_NAMES_ZH[i]+'</span></td><td>'+a+'</td><td>'+b+'</td><td><span class="tag '+tag+'">'+state+'</span></td></tr>';
+  }
+  html+='</tbody></table>';
+  document.getElementById('pair-table-wrap').innerHTML = html;
+
+  let verdict='';
+  if(resonating>=5){
+    verdict=isEn()
+      ? '<strong>DEEP PARTNERSHIP STRUCTURE.</strong><br>'+resonating+' loves resonating. Total-love may emerge.'
+      : '<strong>深度伴侣结构。</strong><br>'+resonating+'爱共振。七爱可能涌现。这段关系拥有事件级以上的结构性根基。';
+  } else if(resonating>=4){
+    verdict=isEn()
+      ? '<strong>VIABLE LONG-TERM.</strong><br>'+resonating+' loves resonating.'
+      : '<strong>长期可行。</strong><br>'+resonating+'爱共振。结构上可以承担持续关系。';
+  } else if(resonating>=3){
+    verdict=isEn()
+      ? '<strong>PHASE RELATIONSHIP.</strong><br>'+resonating+' loves resonating. Real but finite.'
+      : '<strong>阶段性关系。</strong><br>'+resonating+'爱共振。真实但有期限。诚实命名避免失望。';
+  } else if(resonating>=2){
+    verdict=isEn()
+      ? '<strong>ACTIVATION EVENT.</strong><br>'+resonating+' loves resonating.'
+      : '<strong>激活事件。</strong><br>'+resonating+'爱共振。强烈但不构成关系级结构。';
+  } else {
+    verdict=isEn()
+      ? '<strong>VIBRATIONAL EVENT.</strong><br>'+resonating+' loves resonating. Archive without regret.'
+      : '<strong>振动事件。</strong><br>'+resonating+'爱共振。不应被命名为"关系"。无遗憾归档。';
+  }
+  if(dead>=2){
+    verdict+= isEn()
+      ? '<br><br>⚠ <strong>'+dead+' dead frequencies.</strong> Do not force.'
+      : '<br><br>⚠ <strong>检测到 '+dead+' 个死频段。</strong>双方都不承载——不要强行点亮。';
+  }
+  if(asymmetric>=2){
+    verdict+= isEn()
+      ? '<br><br>⚠ <strong>'+asymmetric+' asymmetric loves.</strong> Resentment forms here.'
+      : '<br><br>⚠ <strong>'+asymmetric+' 爱不对称。</strong>随时间会形成怨念。';
+  }
+  document.getElementById('pair-summary').innerHTML = verdict;
+  document.getElementById('pair-result').classList.add('show');
+  setTimeout(()=>document.getElementById('pair-result').scrollIntoView({behavior:'smooth'}),100);
+}
+
+const TREE_QUESTIONS = [
+  {id:'q1', zh:'关系结束时，对方最频繁的反应是？', en:'When the relationship ended, the other party most often:', options:[
+    {zh:'消失/沉默/不解释', en:'disappeared / went silent', tag:'pity-fail'},
+    {zh:'催促/施压/不能等', en:'pressured / could not wait', tag:'wait-fail'},
+    {zh:'觉得对你失去灵感', en:'lost inspiration about you', tag:'wonder-fail'},
+    {zh:'需要降频/升频才匹配', en:'felt need to up/downshift', tag:'equal-fail'},
+    {zh:'被你开启后又害怕', en:'opened by you, then feared it', tag:'open-fail'},
+    {zh:'我们没有可一起做的事', en:'we had nothing to build together', tag:'pact-fail'}
+  ]},
+  {id:'q2', zh:'你最深的感受是？', en:'Your deepest felt sense was:', options:[
+    {zh:'我没能陪他到他的黑暗里', en:'I could not descend into their dark', tag:'pity-fail'},
+    {zh:'我等不了那么久 / 他等不了我', en:'I could not wait / they could not', tag:'wait-fail'},
+    {zh:'我不再为他想造任何东西', en:'I no longer wanted to create for them', tag:'wonder-fail'},
+    {zh:'我必须改变自己才能配上', en:'I had to change myself to match', tag:'equal-fail'},
+    {zh:'被开启后我承受不了那个自己', en:'couldn\'t hold the opened self', tag:'open-fail'},
+    {zh:'我们之间没有未来要共建', en:'we had no future to build', tag:'pact-fail'}
+  ]},
+  {id:'q3', zh:'回看这段关系，振动最强烈的瞬间是？', en:'Looking back, the strongest vibration was:', options:[
+    {zh:'共同度过对方的低谷', en:'getting through their darkness together', tag:'pity-win'},
+    {zh:'对方在远处长时间等我', en:'them waiting across long time', tag:'wait-win'},
+    {zh:'为彼此创造了从未有过的东西', en:'creating something unprecedented', tag:'wonder-win'},
+    {zh:'平视的瞬间 不需要表演', en:'meeting eye-level without performance', tag:'equal-win'},
+    {zh:'打开了从未打开的自己', en:'opening a part never opened before', tag:'open-win'},
+    {zh:'共同完成一件具体的事', en:'completing something concrete together', tag:'pact-win'}
+  ]}
+];
+
+const TREE_DIAG = {
+  'pity-fail':{
+    zh:{name:'凄爱失败',verdict:'死在凄爱位——对方的黑暗（或你的黑暗）无人陪沉。注意：这不意味着失败，意味着核心功课是"陪伴下沉"，而这个功课没有完成。',action:'承认你或对方在凄爱位的承载能力不足。不是道德问题，是频段问题。'},
+    en:{name:'Pity-Love Failure',verdict:'Died on pity-love—the dark had no one to descend with. Not failure—the task of "descending together" was not completed.',action:'Acknowledge insufficient pity-carrying capacity. Not a moral issue, a frequency issue.'}
+  },
+  'wait-fail':{
+    zh:{name:'期爱失败',verdict:'死在期爱位——时间承担崩塌。期爱不是忍受，是主动选择的拉长——至少一方把期爱滑义成了忍受。',action:'检查"等待"的真实动机——是主动选择，还是惯性付出？'},
+    en:{name:'Wait-Love Failure',verdict:'Died on wait-love—time-carrying collapsed. Wait-love is not endurance—at least one party let it slide into endurance.',action:'Examine the real motive—active choice or default sacrifice?'}
+  },
+  'wonder-fail':{
+    zh:{name:'奇爱失败',verdict:'死在奇爱位——双方不再为对方创造。爱失去了它的"造频"维度。',action:'问自己：我还想为这个人造什么吗？如果完全没有——奇爱已尽。'},
+    en:{name:'Wonder-Love Failure',verdict:'Died on wonder-love—no more creating for each other. Love lost its frequency-generating dimension.',action:'Ask: do I still want to create anything for this person? If nothing—exhausted.'}
+  },
+  'equal-fail':{
+    zh:{name:'齐爱失败',verdict:'死在齐爱位——高度不等。一方降频，或一方仰望。这段关系从来没有真正的平面共振。',action:'警告：你可能在重复降频或被仰望的模式。下一次，齐爱必须从一开始就在场。'},
+    en:{name:'Equal-Love Failure',verdict:'Died on equal-love—frequency mismatch. Either you downshifted, or one looked up at the other. Never planar resonance.',action:'Warning: you may be repeating a downshift pattern. Next time, equal-love from the start.'}
+  },
+  'open-fail':{
+    zh:{name:'启爱反位失败',verdict:'死在启爱反位——开启发生了，但承担崩塌。这是最危险的一种失败：振动真实，但开启后双方都没有源场结构承担那个被开启的自己。',action:'这一爱位最容易让人执念——因为开启的体验是真实的。但开启 ≠ 关系。'},
+    en:{name:'Open-Love Reverse Failure',verdict:'Died on open-love reverse—the opening happened, but carrying collapsed. The most dangerous: vibration real, but no source-field to hold the opened self.',action:'This love creates the strongest attachment. But opening ≠ relationship.'}
+  },
+  'pact-fail':{
+    zh:{name:'契爱缺位失败',verdict:'死在契爱位——没有可共建的东西。这是当代最常见的爱情失败原因：所有的激情、开启、奇思都在，但没有可以一起承担的具体事物。爱浮在空中，没有结构。',action:'这段关系本质上是几段事件的叠加，不是一段关系。诚实归档。'},
+    en:{name:'Pact-Love Absence Failure',verdict:'Died on pact-love—nothing to build together. The most common modern failure: all passion, but no concrete thing to shoulder. Love floats with no structure.',action:'This was a stack of events, not a relationship. Honest archive.'}
+  }
+};
+
+function buildTree(){
+  const container = document.getElementById('tree-container');
+  container.innerHTML='';
+  TREE_QUESTIONS.forEach((q,qi)=>{
+    const div = document.createElement('div');
+    div.className='tree-q';
+    div.dataset.qid = q.id;
+    let optsHtml = q.options.map(o=>'<button class="tree-option" data-tag="'+o.tag+'" onclick="answerTree(\''+q.id+'\',\''+o.tag+'\',this)">'+(isEn()?o.en:o.zh)+'</button>').join('');
+    div.innerHTML = '<div class="q-num">Q '+(qi+1)+' / '+TREE_QUESTIONS.length+'</div><div class="q-text">'+(isEn()?q.en:q.zh)+'</div>'+(!isEn()?'<div class="q-text-en"><em>'+q.en+'</em></div>':'')+'<div class="tree-options">'+optsHtml+'</div>';
+    container.appendChild(div);
+  });
+  window._treeAnswers = {};
+  document.getElementById('tree-result').classList.remove('show');
+}
+
+function answerTree(qid, tag, btn){
+  window._treeAnswers[qid] = tag;
+  btn.parentElement.querySelectorAll('.tree-option').forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');
+  btn.closest('.tree-q').classList.add('answered');
+  if(Object.keys(window._treeAnswers).length===TREE_QUESTIONS.length){
+    diagnoseTree();
+  }
+}
+
+function diagnoseTree(){
+  const tally = {};
+  Object.values(window._treeAnswers).forEach(t=>{ tally[t]=(tally[t]||0)+1; });
+  const failures = Object.entries(tally).filter(([k])=>k.endsWith('-fail')).sort((a,b)=>b[1]-a[1]);
+  const wins = Object.entries(tally).filter(([k])=>k.endsWith('-win'));
+  let verdictHtml='', actionHtml='';
+  if(failures.length===0){
+    verdictHtml = isEn()
+      ? '<strong>NO CLEAR FAILURE DETECTED.</strong><br><br>The relationship may not have failed—it may have completed its cycle.'
+      : '<strong>未检测到清晰失败频段。</strong><br><br>这段关系可能不是失败——是完成了它的周期。';
+    actionHtml = isEn() ? 'Archive as cycle completion · no remediation needed.' : '作为周期完成归档 · 无需修复。';
+  } else {
+    const primary = failures[0][0];
+    const diag = TREE_DIAG[primary];
+    const lang = isEn()?'en':'zh';
+    verdictHtml = '<strong>'+diag[lang].name+'</strong><br><br>'+diag[lang].verdict;
+    actionHtml = diag[lang].action;
+    if(wins.length){
+      const map = {'pity-win':isEn()?'pity':'凄爱','wait-win':isEn()?'wait':'期爱','wonder-win':isEn()?'wonder':'奇爱','equal-win':isEn()?'equal':'齐爱','open-win':isEn()?'open':'启爱','pact-win':isEn()?'pact':'契爱'};
+      const winNames = wins.map(([k])=>map[k]);
+      verdictHtml += isEn()
+        ? '<br><br><em>Note: even in failure, these loves did resonate: <strong>'+winNames.join(' · ')+'</strong>. The failure does not erase them.</em>'
+        : '<br><br><em>注意：即使失败，以下爱位曾真实共振：<strong>'+winNames.join(' · ')+'</strong>。失败不抹去它们。</em>';
+    }
+  }
+  document.getElementById('tree-verdict').innerHTML = verdictHtml;
+  document.getElementById('tree-action').textContent = actionHtml;
+  document.getElementById('tree-result').classList.add('show');
+  setTimeout(()=>document.getElementById('tree-result').scrollIntoView({behavior:'smooth'}),100);
+}
+
+function restartTree(){
+  document.getElementById('tree-result').classList.remove('show');
+  buildTree();
+  setTimeout(()=>document.getElementById('tree').scrollIntoView({behavior:'smooth'}),50);
+}
+
+initPairInputs();
+buildTree();
+
+document.querySelectorAll('a.gate[href^="#"]').forEach(a=>{
+  a.addEventListener('click', e=>{
+    const target = document.querySelector(a.getAttribute('href'));
+    if(target){
+      e.preventDefault();
+      target.scrollIntoView({behavior:'smooth'});
+    }
+  });
+});
+</script>
+</body>
+</html>
