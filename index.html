@@ -45,6 +45,14 @@ body.lang-en .lang-zh{display:none}
 .langtoggle a:last-child{border-right:none}
 .langtoggle a.on{color:var(--a1);background:rgba(90,240,200,0.06)}
 
+.nodebar{background:linear-gradient(90deg,rgba(90,240,200,.04),rgba(184,120,255,.05));border-bottom:1px solid var(--border);padding:8px 0}
+.nbi{max-width:1080px;margin:0 auto;padding:0 24px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;color:var(--tx2);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+.nbi .nb-self{color:var(--a1)}
+.nbi .nb-self em{font-style:italic;color:var(--tx);font-family:'Spectral',serif;font-size:11.5px;letter-spacing:.02em;margin-left:4px}
+.nbi .nb-rel{color:var(--tx3)}
+.nbi .nb-rel a{color:var(--qi-seven);text-decoration:none;transition:color .15s}
+.nbi .nb-rel a:hover{color:var(--a1)}
+
 .masthead{max-width:1080px;margin:0 auto;padding:44px 24px 26px}
 .mhname{font-family:'Space Mono',monospace;font-size:30px;font-weight:700;color:var(--hd);letter-spacing:-.03em;line-height:1.1}
 .mhname em{font-style:italic;font-weight:400;color:var(--a3)}
@@ -118,6 +126,31 @@ body.lang-en .lang-zh{display:none}
 .qicard .qiwarn{font-family:'Spectral',serif;font-style:italic;font-size:11.5px;color:var(--tx2);line-height:1.55;margin-top:10px;padding-top:8px;border-top:1px dashed var(--border)}
 .qicard .qiwarn::before{content:'⚠ ';color:var(--qic)}
 .qicard.qi-7{grid-column:1/-1;background:linear-gradient(135deg, rgba(184,120,255,0.05), transparent 70%);border-top-width:3px}
+
+/* bridgebox · AstroLove ⇄ SourceFields */
+.bridgebox{background:linear-gradient(135deg,rgba(90,240,200,.05),rgba(184,120,255,.045) 50%,rgba(245,165,68,.035));border:1px solid var(--border-hi);border-left:3px solid var(--a1);border-radius:4px;padding:24px 26px;margin:14px 0 8px;position:relative;overflow:hidden}
+.bridgebox::before{content:'';position:absolute;right:-90px;top:-100px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(184,120,255,.13),transparent 65%);pointer-events:none}
+.bridge-kicker{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--a1);margin-bottom:18px;text-align:center;position:relative;z-index:1}
+.bridgegrid{display:grid;grid-template-columns:1fr 40px 1fr;gap:10px;align-items:stretch;margin:14px 0;position:relative;z-index:1}
+.bridgecard{background:rgba(7,7,15,.6);border:1px solid var(--border);border-radius:3px;padding:15px 14px}
+.bridgecard.self{border-color:rgba(90,240,200,.3)}
+.bridgecard.self .bl{color:var(--a1)}
+.bridgecard.self .bt{color:var(--hd)}
+.bridgecard.sister{border-color:rgba(184,120,255,.3)}
+.bridgecard.sister .bl{color:var(--qi-seven)}
+.bridgecard.sister .bt a{color:var(--hd);text-decoration:none;transition:color .15s}
+.bridgecard.sister .bt a:hover{color:var(--qi-seven)}
+.bridgecard .bl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:6px}
+.bridgecard .bt{font-family:'Spectral',serif;font-size:17px;font-weight:500;line-height:1.3;margin-bottom:8px}
+.bridgecard .bd{font-size:12.5px;color:var(--tx);line-height:1.7}
+.bridgecard .bd em{color:var(--a1);font-style:italic}
+.bridgecard.sister .bd em{color:var(--qi-seven)}
+.bridge-eq{font-family:'Space Mono',monospace;font-size:26px;color:var(--a2);display:flex;align-items:center;justify-content:center;font-weight:700}
+.bridge-quote{font-family:'Spectral',serif;font-style:italic;font-size:13.5px;color:var(--tx);padding-top:14px;margin-top:8px;border-top:1px dashed rgba(90,240,200,.22);line-height:1.7;position:relative;z-index:1}
+.bridge-quote.zh{font-family:'Noto Serif SC','Spectral',serif;font-style:normal;border-top:none;padding-top:6px;margin-top:6px}
+.langjump{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;position:relative;z-index:1}
+.langjump a{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--a1);text-decoration:none;border:1px solid rgba(90,240,200,.25);padding:5px 10px;border-radius:2px;background:rgba(90,240,200,.05);transition:all .15s}
+.langjump a:hover{background:rgba(90,240,200,.12);color:var(--hd)}
 
 /* matrix */
 .matrixwrap{overflow-x:auto;margin:14px 0;border:1px solid var(--border);border-radius:3px;background:var(--bg2)}
@@ -264,6 +297,17 @@ body.lang-en .lang-zh{display:none}
 .sb-seven .row .c1{color:var(--qi-pity)}.sb-seven .row .c2{color:var(--qi-wait)}.sb-seven .row .c3{color:var(--qi-wonder)}.sb-seven .row .c4{color:var(--qi-equal)}.sb-seven .row .c5{color:var(--qi-open)}.sb-seven .row .c6{color:var(--qi-pact)}.sb-seven .row .c7{color:var(--qi-seven)}
 .sb-seven .note{font-family:'Spectral',serif;font-style:italic;font-size:11px;color:var(--tx2);line-height:1.5}
 
+.sisternode{display:block;background:linear-gradient(135deg,rgba(184,120,255,.07),rgba(90,240,200,.04));border:1px solid rgba(184,120,255,.28);border-radius:3px;padding:14px;text-decoration:none;transition:all .2s}
+.sisternode:hover{border-color:var(--qi-seven);background:linear-gradient(135deg,rgba(184,120,255,.11),rgba(90,240,200,.06))}
+.sn-tag{font-family:'Space Mono',monospace;font-size:8.5px;letter-spacing:.18em;color:var(--qi-seven);text-transform:uppercase;margin-bottom:6px}
+.sn-title{font-family:'Spectral',serif;font-size:17px;font-weight:500;color:var(--hd);line-height:1.2}
+.sn-title small{display:block;font-family:'Space Mono',monospace;font-size:9.5px;font-weight:400;color:var(--tx2);margin-top:3px;letter-spacing:.05em}
+.sn-eq{font-family:'Space Mono',monospace;font-size:11.5px;color:var(--tx);text-align:center;letter-spacing:.04em;margin:10px 0 6px;padding:8px 0;border-top:1px dashed rgba(184,120,255,.18);border-bottom:1px dashed rgba(184,120,255,.18);font-weight:700;line-height:1.4}
+.sn-eq .es{color:var(--qi-seven);margin:0 4px}
+.sn-desc{font-family:'Spectral',serif;font-size:11.5px;color:var(--tx2);line-height:1.55;margin-top:6px}
+.sn-desc em{color:var(--tx);font-style:italic}
+.sn-arrow{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.15em;color:var(--qi-seven);margin-top:10px;text-align:right}
+
 .sblinks{list-style:none}
 .sblinks li{border-bottom:1px solid var(--border);padding:5px 0}
 .sblinks a{font-size:12px;color:var(--tx2);text-decoration:none;display:flex;justify-content:space-between;align-items:center;transition:color .15s}
@@ -284,6 +328,9 @@ footer a:hover{color:var(--a1)}
   .mhname{font-size:22px}
   .qigrid{grid-template-columns:1fr}
   .qicard.qi-7{grid-column:auto}
+  .bridgegrid{grid-template-columns:1fr;gap:8px}
+  .bridge-eq{padding:6px 0;transform:rotate(90deg)}
+  .nbi{flex-direction:column;align-items:flex-start;gap:4px}
 }
 </style>
 </head>
@@ -309,6 +356,13 @@ footer a:hover{color:var(--a1)}
   </div>
 </div>
 
+<div class="nodebar">
+  <div class="nbi">
+    <span class="nb-self">// NODE 17 · QULIA LOVE SPECTRUM · <em>relational refraction</em></span>
+    <span class="nb-rel">← ontological substrate from <a href="https://mellowwei.github.io/SourceFields/" target="_blank">NODE 18 · SourceFields</a></span>
+  </div>
+</div>
+
 <div class="masthead">
   <div class="mhname">Astrological <em>Love Studies</em> <span class="zh">星盘爱情学 · 七爱谱系</span></div>
   <div class="mhsub">
@@ -323,7 +377,8 @@ footer a:hover{color:var(--a1)}
 
 <nav class="pnav">
   <div class="pni">
-    <a href="#axioms" class="on">Axioms · 公理</a>
+    <a href="#substrate" class="on">⇄ SourceFields</a>
+    <a href="#axioms">Axioms · 公理</a>
     <a href="#seven">Seven Loves · 七爱</a>
     <a href="#matrix">Matrix · 矩阵</a>
     <a href="#scanner">Baseline Scanner</a>
@@ -338,6 +393,43 @@ footer a:hover{color:var(--a1)}
 <main>
 
 <div class="feedhd">Qualia Love Spectrum · <span>魏珏然 · 44271 · NODE 17</span></div>
+
+<!-- ONTOLOGICAL SUBSTRATE — sister node bridge -->
+<article class="entry" id="substrate">
+  <div class="etop">
+    <span class="badge bpub">Ontological Substrate · 本体基底</span>
+    <span class="edate">AstroLove ⇄ SourceFields · relational refraction × ontological root</span>
+  </div>
+  <div class="etitle">AstroLove <em>×</em> Source-Field-ology<span class="sub">关系折射 × 本体陈述 · 同一源场在两个层级的展开 / The same source field unfolded at two levels</span></div>
+
+  <div class="bridgebox">
+    <div class="bridge-kicker">SISTER NODES · 17 ⇄ 18</div>
+    <div class="bridgegrid">
+      <div class="bridgecard self">
+        <div class="bl">NODE 17 · 本站</div>
+        <div class="bt">AstroLove · 七爱谱系</div>
+        <div class="bd"><em>Relational refraction</em> · 关系折射<br>回答「源场如何在两两之间共振」<br>Answers: <em>how the source field resonates between two</em>.</div>
+      </div>
+      <div class="bridge-eq">⇄</div>
+      <div class="bridgecard sister">
+        <div class="bl">NODE 18 · 姊妹站</div>
+        <div class="bt"><a href="https://mellowwei.github.io/SourceFields/" target="_blank">SourceFields · 源场学</a></div>
+        <div class="bd"><em>Ontological root</em> · 本体根<br>回答「源场是什么」<br>Answers: <em>what the source field is</em>.</div>
+      </div>
+    </div>
+    <p class="bridge-quote lang-en">The substrate of this spectrum is not astrology — it is source-field-ology. The seven loves are not seven feelings, but seven vibrational frequencies of the source field at the "virtual you-position." Access NODE 18 (SourceFields) for the ontological statement.</p>
+    <p class="bridge-quote zh lang-zh">本谱系的底层不是占星学，是源场学。七爱不是七种情感，是源场在「虚拟你位」上的七种振动频段。访问 NODE 18（SourceFields）获取本体陈述。</p>
+    <div class="langjump">
+      <a href="https://mellowwei.github.io/SourceFields/" target="_blank">→ Open SourceFields · NODE 18</a>
+      <a href="#axioms">Continue to Axioms ↓</a>
+    </div>
+  </div>
+
+  <div class="etags">
+    <span class="tag">ontological substrate</span><span class="tag">sister node</span><span class="tag">refraction × ontology</span>
+    <span class="tag">virtual you-position</span><span class="tag">source-field-ology</span><span class="tag">NODE 18</span>
+  </div>
+</article>
 
 <!-- AXIOMS -->
 <article class="entry" id="axioms">
@@ -807,11 +899,21 @@ footer a:hover{color:var(--a1)}
   </div>
 
   <div>
+    <div class="sbl">Sister Node · 姊妹节点</div>
+    <a href="https://mellowwei.github.io/SourceFields/" target="_blank" class="sisternode">
+      <div class="sn-tag">NODE 18 · ONTOLOGICAL ROOT</div>
+      <div class="sn-title">SourceFields<small>源场学 / 源场五学 · Five Disciplines</small></div>
+      <div class="sn-eq">the collective unconscious <span class="es">=</span> me</div>
+      <p class="sn-desc"><em>The ontological substrate beneath the seven-love spectrum.</em> 七爱谱系的本体基底。</p>
+      <div class="sn-arrow">→ ENTER NODE 18</div>
+    </a>
+  </div>
+
+  <div>
     <div class="sbl">Connected Sites</div>
     <ul class="sblinks">
       <li><a href="https://mellowwei.github.io/MellowWei/" target="_blank">Portal · 主门户 <span class="ar">→</span></a></li>
       <li><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">Academic · 学术总站 <span class="ar">→</span></a></li>
-      <li><a href="https://mellowwei.github.io/SourceFields/" target="_blank">SourceFields · 源场学 <span class="ar">→</span></a></li>
       <li><a href="https://mellowwei.github.io/BCI/" target="_blank">BCI-HRP <span class="ar">→</span></a></li>
       <li><a href="https://mellowwei.github.io/QualiaRhythmMatrix/" target="_blank">振动即存在 · Monograph <span class="ar">→</span></a></li>
     </ul>
